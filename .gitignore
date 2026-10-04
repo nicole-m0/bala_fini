@@ -1,3 +1,6 @@
 tools/browser-profile/
 tools/screenshots/
 __pycache__/
+
+.vercel
+.env*
