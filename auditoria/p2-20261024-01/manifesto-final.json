@@ -1,0 +1,103 @@
+{
+  "changedSinceP1": [
+    "css/style.css",
+    "js/script.js"
+  ],
+  "unchangedHTML": true,
+  "unchangedAssets": 21,
+  "clips": 22,
+  "frames": 303,
+  "checks": [
+    {
+      "outgoingRemoved": true,
+      "incomingStillSettling": true
+    },
+    {
+      "pauseDuringTransition": true,
+      "paused": {
+        "t": [
+          116.7360001020139,
+          116.7360001020139,
+          116.7360001020139,
+          116.7360001020139
+        ],
+        "images": [
+          "matrix3d(0.99966, -0.026063, 0, 0, 0.026063, 0.99966, 0, 0, 0, 0, 1, 0, -2.24021, 3.73368, 3.73368, 1)",
+          "matrix3d(0.988096, 0.150557, 0.0316004, 0, -0.153837, 0.967091, 0.202655, 0, -4.94071e-05, -0.205104, 0.97874, 0, 0, -35.4108, -88.6571, 1)"
+        ],
+        "orbit": "matrix(1.01933, -0.00725779, 0.00725779, 1.01933, 524.314, 288.696)"
+      }
+    },
+    {
+      "rapidHero": true
+    },
+    {
+      "immediateTabsAndRapidVibes": true
+    },
+    {
+      "rapidClassics": true
+    },
+    {
+      "worldParallax": true
+    },
+    {
+      "realTabHiddenPause": true
+    },
+    {
+      "reducedDuringHero": true,
+      "manualReducedAdvance": true
+    },
+    {
+      "reducedDuringVibes": true
+    },
+    {
+      "width": 320,
+      "state": {
+        "overflow": false,
+        "broken": [],
+        "ghosts": 0,
+        "jobs": 0,
+        "heroSlides": 1,
+        "heroIndex": 1,
+        "heroChanging": false,
+        "selected": "tubes",
+        "classic": 1
+      }
+    },
+    {
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "broken": [],
+        "ghosts": 0,
+        "jobs": 0,
+        "heroSlides": 1,
+        "heroIndex": 1,
+        "heroChanging": false,
+        "selected": "tubes",
+        "classic": 1
+      }
+    },
+    {
+      "width": 430,
+      "state": {
+        "overflow": false,
+        "broken": [],
+        "ghosts": 0,
+        "jobs": 0,
+        "heroSlides": 1,
+        "heroIndex": 1,
+        "heroChanging": false,
+        "selected": "tubes",
+        "classic": 1
+      }
+    },
+    {
+      "menuLandscapePreserved": true
+    }
+  ],
+  "hashes": {
+    "css": "c2d557e90259c899e9c738c7870a86f1f2824f98cdafc0b06a7bec3d207b3a43",
+    "js": "8fad06f7926ab78c76bc3bbf66fc1b1f924cdb12883352b680967ffc6166c0c6"
+  }
+}

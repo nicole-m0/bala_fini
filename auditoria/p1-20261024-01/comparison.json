@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "viewport": "1440x900",
+      "before": {
+        "hero": 725,
+        "vibes": 946,
+        "panel": 540,
+        "final": 585,
+        "overflow": false
+      },
+      "after": {
+        "hero": 725,
+        "vibes": 913,
+        "panel": 470,
+        "final": 585,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": "320x900",
+      "before": {
+        "hero": 784,
+        "vibes": 988,
+        "panel": 628,
+        "final": 417,
+        "overflow": false
+      },
+      "after": {
+        "hero": 766,
+        "vibes": 829,
+        "panel": 568,
+        "final": 345,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": "375x900",
+      "before": {
+        "hero": 826,
+        "vibes": 963,
+        "panel": 640,
+        "final": 422,
+        "overflow": false
+      },
+      "after": {
+        "hero": 756,
+        "vibes": 807,
+        "panel": 545,
+        "final": 345,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": "430x900",
+      "before": {
+        "hero": 839,
+        "vibes": 964,
+        "panel": 640,
+        "final": 422,
+        "overflow": false
+      },
+      "after": {
+        "hero": 770,
+        "vibes": 820,
+        "panel": 555,
+        "final": 347,
+        "overflow": false
+      }
+    },
+    {
+      "viewport": "667x375",
+      "before": {
+        "hero": 893,
+        "vibes": 933,
+        "panel": 640,
+        "final": 422,
+        "overflow": false
+      },
+      "after": {
+        "hero": 794,
+        "vibes": 803,
+        "panel": 533,
+        "final": 352,
+        "overflow": false
+      }
+    }
+  ],
+  "unchangedAssets": true,
+  "unchangedOriginalTest": true,
+  "menuPassed": true,
+  "anchorPassed": true
+}

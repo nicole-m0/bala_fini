@@ -1,0 +1,49 @@
+{
+  "name": "p1-hero-reference",
+  "frames": [
+    {
+      "name": "0000.jpg",
+      "timestamp": 1792861261.039961
+    },
+    {
+      "name": "0001.jpg",
+      "timestamp": 1792861261.20052
+    },
+    {
+      "name": "0002.jpg",
+      "timestamp": 1792861261.376292
+    },
+    {
+      "name": "0003.jpg",
+      "timestamp": 1792861261.540219
+    },
+    {
+      "name": "0004.jpg",
+      "timestamp": 1792861261.686946
+    },
+    {
+      "name": "0005.jpg",
+      "timestamp": 1792861261.795858
+    },
+    {
+      "name": "0006.jpg",
+      "timestamp": 1792861261.895226
+    },
+    {
+      "name": "0007.jpg",
+      "timestamp": 1792861261.993227
+    },
+    {
+      "name": "0008.jpg",
+      "timestamp": 1792861262.095817
+    },
+    {
+      "name": "0009.jpg",
+      "timestamp": 1792861262.178862
+    },
+    {
+      "name": "0010.jpg",
+      "timestamp": 1792861262.262003
+    }
+  ]
+}

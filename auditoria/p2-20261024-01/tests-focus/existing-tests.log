@@ -1,0 +1,11 @@
+Resume readiness {
+  heroVisible: true,
+  hidden: false,
+  heroUserPaused: false,
+  heroFocusPaused: false,
+  reduced: false
+}
+Explicit resume while button remains focused: OK. Runtime errors: none.
+
+
+Exit: 0

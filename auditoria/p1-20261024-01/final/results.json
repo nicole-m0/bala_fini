@@ -1,0 +1,496 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "anchor": {
+        "hash": "#vibes",
+        "visible": true,
+        "clip": "none",
+        "rect": {
+          "x": 99.75,
+          "y": 230,
+          "width": 1225.5,
+          "height": 133.4375,
+          "top": 230,
+          "right": 1325.25,
+          "bottom": 363.4375,
+          "left": 99.75
+        }
+      },
+      "dimensions": {
+        "hero": 725,
+        "vibes": 913,
+        "panel": 470,
+        "final": 585,
+        "overflow": false
+      },
+      "menuGeometry": null
+    },
+    {
+      "width": 320,
+      "height": 900,
+      "anchor": {
+        "hash": "#vibes",
+        "visible": true,
+        "clip": "none",
+        "rect": {
+          "x": 19.1875,
+          "y": 153.375,
+          "width": 281.625,
+          "height": 84.6875,
+          "top": 153.375,
+          "right": 300.8125,
+          "bottom": 238.0625,
+          "left": 19.1875
+        }
+      },
+      "dimensions": {
+        "hero": 766,
+        "vibes": 829,
+        "panel": 568,
+        "final": 345,
+        "overflow": false
+      },
+      "menuGeometry": {
+        "logo": {
+          "x": 21.512500762939453,
+          "y": 10.899999618530273,
+          "width": 88.35000610351562,
+          "height": 53.19999694824219,
+          "top": 10.899999618530273,
+          "right": 109.86250686645508,
+          "bottom": 64.09999656677246,
+          "left": 21.512500762939453
+        },
+        "links": [
+          {
+            "text": "Produtos",
+            "rect": {
+              "x": 25.299530029296875,
+              "y": 326,
+              "width": 268.8125,
+              "height": 55,
+              "top": 326,
+              "right": 294.1120300292969,
+              "bottom": 381,
+              "left": 25.299530029296875
+            }
+          },
+          {
+            "text": "Os clássicos",
+            "rect": {
+              "x": 24.978069305419922,
+              "y": 387,
+              "width": 268.8125,
+              "height": 55,
+              "top": 387,
+              "right": 293.7905693054199,
+              "bottom": 442,
+              "left": 24.978069305419922
+            }
+          },
+          {
+            "text": "Mundo Fini",
+            "rect": {
+              "x": 24.40251922607422,
+              "y": 448,
+              "width": 268.8125,
+              "height": 55,
+              "top": 448,
+              "right": 293.2150192260742,
+              "bottom": 503,
+              "left": 24.40251922607422
+            }
+          },
+          {
+            "text": "Nossa história",
+            "rect": {
+              "x": 23.400928497314453,
+              "y": 509,
+              "width": 268.8125,
+              "height": 55,
+              "top": 509,
+              "right": 292.21342849731445,
+              "bottom": 564,
+              "left": 23.400928497314453
+            }
+          },
+          {
+            "text": "Loja oficial ↗",
+            "rect": {
+              "x": 25.59375,
+              "y": 584,
+              "width": 169.890625,
+              "height": 50,
+              "top": 584,
+              "right": 195.484375,
+              "bottom": 634,
+              "left": 25.59375
+            }
+          }
+        ],
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 900,
+          "top": 0,
+          "right": 320,
+          "bottom": 900,
+          "left": 0
+        },
+        "scrollHeight": 900
+      }
+    },
+    {
+      "width": 375,
+      "height": 900,
+      "anchor": {
+        "hash": "#vibes",
+        "visible": true,
+        "clip": "none",
+        "rect": {
+          "x": 22.5,
+          "y": 153.375,
+          "width": 330,
+          "height": 84.6875,
+          "top": 153.375,
+          "right": 352.5,
+          "bottom": 238.0625,
+          "left": 22.5
+        }
+      },
+      "dimensions": {
+        "hero": 756,
+        "vibes": 807,
+        "panel": 545,
+        "final": 345,
+        "overflow": false
+      },
+      "menuGeometry": {
+        "logo": {
+          "x": 24.825000762939453,
+          "y": 10.899999618530273,
+          "width": 88.35000610351562,
+          "height": 53.19999694824219,
+          "top": 10.899999618530273,
+          "right": 113.17500686645508,
+          "bottom": 64.09999656677246,
+          "left": 24.825000762939453
+        },
+        "links": [
+          {
+            "text": "Produtos",
+            "rect": {
+              "x": 29.705814361572266,
+              "y": 320,
+              "width": 315,
+              "height": 58,
+              "top": 320,
+              "right": 344.70581436157227,
+              "bottom": 378,
+              "left": 29.705814361572266
+            }
+          },
+          {
+            "text": "Os clássicos",
+            "rect": {
+              "x": 29.384380340576172,
+              "y": 384,
+              "width": 315,
+              "height": 58,
+              "top": 384,
+              "right": 344.3843803405762,
+              "bottom": 442,
+              "left": 29.384380340576172
+            }
+          },
+          {
+            "text": "Mundo Fini",
+            "rect": {
+              "x": 28.808874130249023,
+              "y": 448,
+              "width": 315,
+              "height": 58,
+              "top": 448,
+              "right": 343.808874130249,
+              "bottom": 506,
+              "left": 28.808874130249023
+            }
+          },
+          {
+            "text": "Nossa história",
+            "rect": {
+              "x": 27.807361602783203,
+              "y": 512,
+              "width": 315,
+              "height": 58,
+              "top": 512,
+              "right": 342.8073616027832,
+              "bottom": 570,
+              "left": 27.807361602783203
+            }
+          },
+          {
+            "text": "Loja oficial ↗",
+            "rect": {
+              "x": 30,
+              "y": 590,
+              "width": 169.890625,
+              "height": 50,
+              "top": 590,
+              "right": 199.890625,
+              "bottom": 640,
+              "left": 30
+            }
+          }
+        ],
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 900,
+          "top": 0,
+          "right": 375,
+          "bottom": 900,
+          "left": 0
+        },
+        "scrollHeight": 900
+      }
+    },
+    {
+      "width": 430,
+      "height": 900,
+      "anchor": {
+        "hash": "#vibes",
+        "visible": true,
+        "clip": "none",
+        "rect": {
+          "x": 25.796875,
+          "y": 153.4375,
+          "width": 378.40625,
+          "height": 88.46875,
+          "top": 153.4375,
+          "right": 404.203125,
+          "bottom": 241.90625,
+          "left": 25.796875
+        }
+      },
+      "dimensions": {
+        "hero": 770,
+        "vibes": 820,
+        "panel": 555,
+        "final": 347,
+        "overflow": false
+      },
+      "menuGeometry": {
+        "logo": {
+          "x": 28.121875762939453,
+          "y": 10.899999618530273,
+          "width": 88.35000610351562,
+          "height": 53.19999694824219,
+          "top": 10.899999618530273,
+          "right": 116.47188186645508,
+          "bottom": 64.09999656677246,
+          "left": 28.121875762939453
+        },
+        "links": [
+          {
+            "text": "Produtos",
+            "rect": {
+              "x": 34.22203063964844,
+              "y": 310,
+              "width": 361.21875,
+              "height": 63,
+              "top": 310,
+              "right": 395.44078063964844,
+              "bottom": 373,
+              "left": 34.22203063964844
+            }
+          },
+          {
+            "text": "Os clássicos",
+            "rect": {
+              "x": 34.00959014892578,
+              "y": 379,
+              "width": 361.21875,
+              "height": 63,
+              "top": 379,
+              "right": 395.2283401489258,
+              "bottom": 442,
+              "left": 34.00959014892578
+            }
+          },
+          {
+            "text": "Mundo Fini",
+            "rect": {
+              "x": 33.617149353027344,
+              "y": 448,
+              "width": 361.21875,
+              "height": 63,
+              "top": 448,
+              "right": 394.83589935302734,
+              "bottom": 511,
+              "left": 33.617149353027344
+            }
+          },
+          {
+            "text": "Nossa história",
+            "rect": {
+              "x": 32.92255783081055,
+              "y": 517,
+              "width": 361.21875,
+              "height": 63,
+              "top": 517,
+              "right": 394.14130783081055,
+              "bottom": 580,
+              "left": 32.92255783081055
+            }
+          },
+          {
+            "text": "Loja oficial ↗",
+            "rect": {
+              "x": 34.390625,
+              "y": 600,
+              "width": 169.890625,
+              "height": 50,
+              "top": 600,
+              "right": 204.28125,
+              "bottom": 650,
+              "left": 34.390625
+            }
+          }
+        ],
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 900,
+          "top": 0,
+          "right": 430,
+          "bottom": 900,
+          "left": 0
+        },
+        "scrollHeight": 900
+      }
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "anchor": {
+        "hash": "#vibes",
+        "visible": true,
+        "clip": "none",
+        "rect": {
+          "x": 40.015625,
+          "y": 153.375,
+          "width": 586.96875,
+          "height": 92.859375,
+          "top": 153.375,
+          "right": 626.984375,
+          "bottom": 246.234375,
+          "left": 40.015625
+        }
+      },
+      "dimensions": {
+        "hero": 794,
+        "vibes": 803,
+        "panel": 533,
+        "final": 352,
+        "overflow": false
+      },
+      "menuGeometry": {
+        "logo": {
+          "x": 42.34062576293945,
+          "y": 10.899999618530273,
+          "width": 88.35000610351562,
+          "height": 53.19999694824219,
+          "top": 10.899999618530273,
+          "right": 130.69063186645508,
+          "bottom": 64.09999656677246,
+          "left": 42.34062576293945
+        },
+        "links": [
+          {
+            "text": "Produtos",
+            "rect": {
+              "x": 53.06516647338867,
+              "y": 87,
+              "width": 560.28125,
+              "height": 44,
+              "top": 87,
+              "right": 613.3464164733887,
+              "bottom": 131,
+              "left": 53.06516647338867
+            }
+          },
+          {
+            "text": "Os clássicos",
+            "rect": {
+              "x": 52.74371337890625,
+              "y": 131,
+              "width": 560.28125,
+              "height": 44,
+              "top": 131,
+              "right": 613.0249633789062,
+              "bottom": 175,
+              "left": 52.74371337890625
+            }
+          },
+          {
+            "text": "Mundo Fini",
+            "rect": {
+              "x": 52.168174743652344,
+              "y": 175,
+              "width": 560.28125,
+              "height": 44,
+              "top": 175,
+              "right": 612.4494247436523,
+              "bottom": 219,
+              "left": 52.168174743652344
+            }
+          },
+          {
+            "text": "Nossa história",
+            "rect": {
+              "x": 51.16660690307617,
+              "y": 219,
+              "width": 560.28125,
+              "height": 44,
+              "top": 219,
+              "right": 611.4478569030762,
+              "bottom": 263,
+              "left": 51.16660690307617
+            }
+          },
+          {
+            "text": "Loja oficial ↗",
+            "rect": {
+              "x": 53.359375,
+              "y": 271,
+              "width": 163.890625,
+              "height": 44,
+              "top": 271,
+              "right": 217.25,
+              "bottom": 315,
+              "left": 53.359375
+            }
+          }
+        ],
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 667,
+          "height": 375,
+          "top": 0,
+          "right": 667,
+          "bottom": 375,
+          "left": 0
+        },
+        "scrollHeight": 375
+      }
+    }
+  ],
+  "errors": []
+}

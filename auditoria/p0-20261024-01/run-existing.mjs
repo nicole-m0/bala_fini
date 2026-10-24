@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import { spawnSync } from 'node:child_process';
+const root = 'auditoria/p0-20261024-01';
+fs.mkdirSync(`${root}/screenshots`, {recursive:true});
+let source = fs.readFileSync('tools/check_site.mjs','utf8');
+source = source.replaceAll('tools/screenshots', `${root}/screenshots`);
+source = source.replace("'file:///' + path.resolve('index.html').replaceAll('\\\\','/')", "'http://127.0.0.1:8000/'");
+if(source.includes("url: 'file:///")) throw new Error('HTTP replacement failed');
+fs.writeFileSync(`${root}/check_site.audit.mjs`,source,{flag:'wx'});
+const result = spawnSync(process.execPath,[`${root}/check_site.audit.mjs`],{encoding:'utf8',timeout:180000});
+fs.writeFileSync(`${root}/existing-tests.log`,`${result.stdout || ''}\n${result.stderr || ''}\nExit: ${result.status}\n${result.error || ''}`,{flag:'wx'});
+console.log(result.stdout); console.error(result.stderr); console.log('Exit:',result.status);

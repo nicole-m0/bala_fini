@@ -66,8 +66,10 @@
 .vibe-content p{min-height:5.1em}
 .vibe-letter{font-style:italic}
 .vibe-art.changing>img{opacity:1;transform:rotate(10deg)}
-.js .vibes .reveal{opacity:1;transform:none;clip-path:inset(0 100% 0 0);transition:clip-path .85s var(--ease)}
-.js .vibes .reveal.visible{clip-path:inset(0)}
+.js .vibes .reveal{opacity:1;transform:none}
+/* Keep the observed box unclipped so IntersectionObserver can reveal its content. */
+.js .vibes .reveal>div{clip-path:inset(0 100% 0 0);transition:clip-path .85s var(--ease)}
+.js .vibes .reveal.visible>div{clip-path:inset(0)}
 .classics{position:relative;isolation:auto;background:var(--blue);color:var(--cream);max-width:none;padding-top:85px;padding-bottom:100px;margin-top:10px}
 .classics em{color:#ff91b9}
 .classics .section-heading{position:relative;z-index:2}
@@ -176,10 +178,184 @@ body.menu-open{overflow:hidden}
 }
 @media(max-width:359px){.hero-art{height:370px}.hero-product{width:170px;height:290px;left:calc(50% - 85px);top:30px}.hero-player{left:0}.hero-caption{font-size:9px}.hero-backword{font-size:75px;top:145px}.flavor-seal{width:70px;height:70px}.vibe-content h3{font-size:31px}.final-section h2{font-size:38px}.about-copy h2{font-size:32px}}
 @media(prefers-reduced-motion:reduce){
- .js .vibes .reveal,.js .classics .reveal h2,.js .world-text.reveal h2,.js .about-copy.reveal>h2{clip-path:none;transform:none}
+ .js .vibes .reveal>div,.js .classics .reveal h2,.js .world-text.reveal h2,.js .about-copy.reveal>h2{clip-path:none;transform:none}
  .js .about-art.reveal img,.js .about-art.reveal .about-ring{opacity:1;transform:none}
  .js .about-copy.reveal>p,.js .about-copy.reveal .about-facts{opacity:1}
  .js .final-section:not(.visible) .final-lineup img{opacity:1;transform:rotate(var(--angle)) translateY(var(--offset))}
  .depth-layer{--drift:0px!important;--spin:0deg!important;--depth-scale:1!important;will-change:auto}
  .satellite,.hero-product .hero-slide{will-change:auto}.hero-product{transform:rotate(-12deg)}
+}
+
+/* P1 — Product-led composition. Motion timings and campaign logic remain intact. */
+.hero-composition{grid-template-columns:44% 56%}
+.hero-copy>.eyebrow{font-size:11px;letter-spacing:1.2px}
+.hero-copy p{font-size:17px;line-height:1.6}
+.hero-art .s2,.hand-note{display:none}
+.hero-art .orbit:after{display:none}
+.hero-art .orbit{border-color:#29207420}
+.hero-backword{font-size:clamp(64px,8vw,112px);letter-spacing:-.05em;top:auto;bottom:65px;left:3%}
+.flavor-seal{width:105px;height:105px;top:80px;font-size:11px}
+.flavor-seal strong{font-size:15px}
+.hero-caption{font-size:11px;letter-spacing:.5px}
+#hero-pause{font-size:12px;min-height:44px}
+#hero-next{width:44px;height:44px}
+.hero-product .hero-slide.is-display{width:155%;left:-27.5%;object-fit:contain}
+
+/* Vibes is an editorial spread: colour belongs to the product plate, not a card. */
+.vibes .section-heading{padding-bottom:26px;border-bottom:1px solid #29207430}
+.vibe-tabs{gap:0;margin-bottom:30px;border-bottom:1px solid #29207430}
+.vibe-tabs button{position:relative;border:0;border-radius:0;padding:16px 24px;min-height:48px;font-size:14px;gap:16px}
+.vibe-tabs button[aria-selected=true]{background:transparent;color:var(--blue)}
+.vibe-tabs button[aria-selected=true]:after{content:'';position:absolute;height:4px;left:24px;right:24px;bottom:-1px;background:var(--pink);border-radius:4px}
+.vibe-panel{grid-template-columns:minmax(0,46%) minmax(0,54%);min-height:470px;background:transparent;border-radius:0;overflow:hidden}
+.vibe-panel:before{z-index:2;opacity:.15}
+.vibe-content{grid-column:2;grid-row:1;padding:34px 0 24px 12%;justify-content:center}
+.vibe-content .eyebrow{font-size:11px;letter-spacing:1.4px}
+.vibe-content h3{min-height:0;font-size:clamp(38px,3.7vw,60px);margin:16px 0 24px;max-width:10em;text-wrap:balance}
+.vibe-content p{min-height:0;max-width:365px;font-size:15px;line-height:1.7;margin-bottom:26px}
+.vibe-footnote{font-size:10px;letter-spacing:1.2px;margin-top:30px;padding-top:20px;border-top:1px solid #29207425}
+.vibe-art{grid-column:1;grid-row:1;min-height:470px;background:var(--vibe-color,#eee5f8);border-radius:48% 48% 0 0 / 22% 22% 0 0;display:grid;grid-template-rows:1fr auto;justify-items:center;padding:28px 20px 24px;transition:background .6s}
+.vibe-art:before{content:'';position:absolute;left:12%;right:12%;bottom:66px;height:1px;background:#29207425}
+.vibe-art>img{position:relative;top:auto;left:auto;width:250px;height:365px;align-self:center;transform:rotate(0deg);filter:drop-shadow(8px 16px 10px #29207420)}
+.vibe-art>img.is-display{width:min(100%,400px);height:365px;margin:0;max-width:100%;object-fit:contain}
+.vibe-sticker{position:static;width:auto;height:auto;min-height:20px;background:none;border-radius:0;display:block;transform:none;text-align:center;font-size:12px;letter-spacing:1.2px;line-height:1.5;white-space:normal;padding-top:18px}
+.vibe-letter,.vibe-art .ring{display:none}
+.text-link{font-size:13px;min-height:44px}
+.classic-picture img.is-display{width:390px;left:calc(50% - 195px);margin:0;object-fit:contain}
+.classic-index button{font-size:11px;min-height:48px}
+.classic-index button span{font-size:13px}
+.classic-tag{font-size:11px;letter-spacing:.5px}
+.about-facts span{font-size:12px;line-height:1.5;display:block}
+.footer-bottom{font-size:11px}
+.social-placeholders small{font-size:11px}
+
+@media(min-width:768px) and (max-width:1024px){
+ .vibe-content{padding-left:9%}.vibe-content h3{font-size:38px}
+ .vibe-art>img{width:220px;height:345px}.vibe-art>img.is-display{width:100%;height:345px}
+ .classic-picture img.is-display{width:310px;left:calc(50% - 155px)}
+}
+@media(max-width:767px){
+ .header nav{justify-content:safe center;gap:6px;padding-top:125px;padding-bottom:65px;scroll-padding-top:115px;overscroll-behavior:contain}
+ .header nav>a{flex-shrink:0}
+ .hero-copy{padding-top:22px}
+ .hero-copy>.eyebrow{font-size:10px;letter-spacing:.7px}
+ .hero h1{font-size:clamp(70px,18vw,90px);margin:12px 0 16px}
+ .hero-copy p{font-size:14px;line-height:1.55;margin-bottom:18px}
+ .hero-art{height:300px;width:100%;margin:6px 0 0}
+ .hero-product{width:166px;height:260px;top:14px;left:calc(50% - 83px)}
+ .hero-art .orbit{inset:15px 8px 40px}
+ .hero-backword{font-size:64px;left:2%;bottom:30px;top:auto}
+ .flavor-seal{width:76px;height:76px;top:25px;right:0;font-size:9px}
+ .flavor-seal strong{font-size:12px}
+ .hero-player{position:relative;left:auto;right:auto;bottom:auto;margin:0 0 12px;gap:8px}
+ .hero-caption{font-size:10px;max-width:49%}
+ .hero-bottom{font-size:9px;letter-spacing:.3px;gap:12px}
+ .hero-bottom>a{font-size:11px;white-space:nowrap}
+ .hero-bottom>a span{margin-left:6px}
+ .eyebrow{font-size:10px;letter-spacing:1px}
+ .vibes{padding-top:48px;padding-bottom:48px}
+ .vibes .section-heading{padding-bottom:20px;margin-bottom:8px}
+ .vibes .section-heading h2{font-size:clamp(35px,9vw,43px)}
+ .vibe-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-bottom:24px}
+ .vibe-tabs button{padding:13px 0;gap:0;justify-content:center;font-size:12px;min-width:0}
+ .vibe-tabs span{display:none}
+ .vibe-tabs button[aria-selected=true]:after{left:8px;right:8px}
+ .vibe-panel{grid-template-columns:1fr;min-height:0;gap:22px}
+ .vibe-content{grid-column:1;grid-row:1;padding:0;display:block}
+ .vibe-content h3{min-height:0;font-size:clamp(31px,8.3vw,36px);line-height:1.04;margin:12px 0 16px;max-width:100%;text-wrap:initial}
+ .vibe-content p{font-size:14px;min-height:0;line-height:1.6;max-width:100%;margin-bottom:12px}
+ .vibe-content .text-link{font-size:12px}
+ .vibe-footnote{display:none}
+ .vibe-art{grid-column:1;grid-row:2;min-height:0;height:290px;padding:16px 16px 14px;border-radius:48% 48% 0 0 / 20% 20% 0 0}
+ .vibe-art>img{width:156px;height:224px}
+ .vibe-art>img.is-display{width:min(100%,300px);height:224px;margin:0}
+ .vibe-art:before{bottom:38px}
+ .vibe-sticker{font-size:11px;padding-top:0;min-height:0;letter-spacing:.8px}
+ .classic-picture img.is-display{width:min(100%,310px);left:0;right:0;margin:auto}
+ .classic-copy p{font-size:14px;line-height:1.65;min-height:0}
+ .classic-index{gap:22px;scroll-snap-type:x proximity}
+ .classic-index button{scroll-snap-align:start;font-size:11px}
+ .classic-index button span{font-size:12px}
+ .classic-tag{font-size:10px}
+ .world-ring{right:8%;top:auto;bottom:70px}
+ .about-copy>p{font-size:14px}
+ .about-facts{gap:24px}.about-facts>div{flex:1}
+ .about-facts span{font-size:11px}
+ .about-label{font-size:10px}
+ .final-section{padding-top:42px}
+ .final-section h2{font-size:clamp(36px,9vw,43px);margin:16px 0 20px;text-wrap:balance}
+ .final-lineup{height:160px;margin-top:14px;margin-bottom:-20px;align-items:flex-end}
+ .final-lineup img{height:160px}
+ .footer-main nav,.social-placeholders{font-size:12px}
+ .footer-bottom{font-size:11px}
+}
+/* A short landscape viewport needs its own navigation rhythm, not unsafe centering. */
+@media(max-width:767px) and (max-height:500px){
+ .header nav{justify-content:flex-start;padding:87px 8% 24px;gap:0;scroll-padding-top:87px}
+ .header nav:before,.header nav:after{display:none}
+ .header nav>a:not(.nav-shop){font-size:25px;line-height:1.1;padding:8px 0;min-height:44px}
+ .header nav>a.nav-shop{margin-top:8px;padding:12px 20px;min-height:44px}
+}
+
+/* P2 — Local depth, short sensory gestures, and quiet resting states. */
+.hero-product{perspective:900px;transition:none}
+.hero-product .hero-slide{transform-origin:50% 65%;backface-visibility:hidden;will-change:auto}
+.hero-product.is-transitioning .hero-slide{will-change:transform,opacity}
+.hero-product .hero-slide.is-display{transform-origin:50% 70%}
+.hero-backword,.flavor-seal{transition:color .45s,background .45s}
+.vibe-art{perspective:850px;isolation:isolate}
+.vibe-art>img{z-index:2;backface-visibility:hidden}
+.vibe-art>.motion-ghost{z-index:3;pointer-events:none;grid-area:auto}
+.classic-picture>.motion-ghost{z-index:3;pointer-events:none}
+.classic-picture>img{backface-visibility:hidden;transform-origin:50% 65%}
+.classic-picture{perspective:1000px}
+.vibe-panel:before{display:none}
+.vibe-art:after{content:'';position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,transparent 20%,#ffffff80 48%,transparent 75%);opacity:0;pointer-events:none;z-index:1}
+.vibe-panel[data-motion=azedo] .vibe-art{transition-duration:.24s}
+.vibe-panel[data-motion=doce] .vibe-art{transition-duration:.62s}
+.vibe-panel[data-motion=tubes] .vibe-art{transition-duration:.42s}
+.vibe-panel[data-motion=classicos] .vibe-art{transition-duration:.35s}
+.vibe-panel[data-motion=azedo] .is-reacting:after{animation:sour-prickle .46s ease-out}
+.vibe-panel[data-motion=doce] .is-reacting:after{animation:sweet-bloom .64s ease-in-out}
+.vibe-panel[data-motion=tubes] .is-reacting:after{animation:tube-pass .54s cubic-bezier(.42,0,.2,1)}
+.vibe-panel[data-motion=classicos] .is-reacting:after{animation:classic-press .42s ease-out}
+@keyframes sour-prickle{0%,100%{opacity:0}20%,48%{opacity:.3}34%,65%{opacity:.05}}
+@keyframes sweet-bloom{0%{opacity:0;transform:scale(.85)}55%{opacity:.4}100%{opacity:0;transform:scale(1)}}
+@keyframes tube-pass{0%{opacity:0;transform:translateX(-30%)}40%{opacity:.5}100%{opacity:0;transform:translateX(30%)}}
+@keyframes classic-press{0%{opacity:0;transform:scaleY(.9)}40%{opacity:.25}100%{opacity:0;transform:scaleY(1)}}
+.depth-layer{will-change:auto}
+.world.is-in-view .depth-layer{will-change:transform}
+.world-text.depth-layer{will-change:auto}
+.button{transition:transform .22s cubic-bezier(.2,.7,.3,1),box-shadow .22s}
+.button:hover,.button:focus-visible{transform:translateY(-2px);box-shadow:0 5px 0 #29207418}
+.button:active{transform:translateY(1px) scale(.98);box-shadow:none;transition-duration:.1s}
+.button:focus-visible span,.text-link:focus-visible span{transform:translate(2px,-2px)}
+.vibe-tabs button{transition:color .16s,transform .16s}
+.vibe-tabs button:hover{transform:translateY(-1px)}
+.vibe-tabs button:active{transform:translateY(1px)}
+.vibe-tabs button[aria-selected=true]:after{transform-origin:left;animation:tab-mark .22s ease-out}
+@keyframes tab-mark{from{transform:scaleX(.4)}to{transform:scaleX(1)}}
+.slider-controls button{transition:transform .18s,background .18s,color .18s}
+.slider-controls button:hover{transform:scale(1.04)}
+.slider-controls button:active{transform:scale(.94)}
+.js .vibes .reveal>div{transition-duration:.65s}
+.js .classics .reveal h2{transition-duration:.65s}
+.js .world-text.reveal h2{transition-duration:.8s}
+.js .about-copy.reveal>h2{transition-duration:.65s;transition-delay:.1s}
+.js .about-copy.reveal>p,.js .about-copy.reveal .about-facts{transition-duration:.65s;transition-delay:.22s}
+.js .about-art.reveal img{transition-duration:.7s,.85s;transition-delay:.12s}
+.final-lineup img{transition-duration:.8s,.5s}
+.ticker.motion-rest>div{animation-play-state:paused}
+.motion-suspended *,.motion-suspended *:before,.motion-suspended *:after{animation-play-state:paused!important}
+@media(max-width:767px){
+ .hero-product{perspective:750px}
+ .header nav>a:not(.nav-shop){transition-duration:.32s}
+ .header nav>a:nth-child(2){transition-delay:30ms}.header nav>a:nth-child(3){transition-delay:60ms}.header nav>a:nth-child(4){transition-delay:90ms}
+ .world.is-in-view .depth-layer{will-change:auto}
+}
+@media(prefers-reduced-motion:reduce){
+ .hero-product,.vibe-art,.classic-picture{perspective:none}
+ .hero-product.is-transitioning .hero-slide,.world.is-in-view .depth-layer{will-change:auto}
+ .vibe-art:after{display:none}
+ .button:hover,.button:focus-visible,.vibe-tabs button:hover,.slider-controls button:hover{transform:none}
 }

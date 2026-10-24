@@ -1,0 +1,41 @@
+{
+  "name": "p1-hero-reference",
+  "frames": [
+    {
+      "name": "0000.jpg",
+      "timestamp": 1792860420.261695
+    },
+    {
+      "name": "0001.jpg",
+      "timestamp": 1792860420.384336
+    },
+    {
+      "name": "0002.jpg",
+      "timestamp": 1792860420.532145
+    },
+    {
+      "name": "0003.jpg",
+      "timestamp": 1792860420.709598
+    },
+    {
+      "name": "0004.jpg",
+      "timestamp": 1792860420.877307
+    },
+    {
+      "name": "0005.jpg",
+      "timestamp": 1792860421.010275
+    },
+    {
+      "name": "0006.jpg",
+      "timestamp": 1792860421.158581
+    },
+    {
+      "name": "0007.jpg",
+      "timestamp": 1792860421.309117
+    },
+    {
+      "name": "0008.jpg",
+      "timestamp": 1792860421.439012
+    }
+  ]
+}

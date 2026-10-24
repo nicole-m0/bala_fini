@@ -1,0 +1,490 @@
+diff --git a/auditoria/p2-20261024-01/backup-p1/css/style.css b/css/style.css
+index 66eac5f..5bf35bf 100644
+--- a/auditoria/p2-20261024-01/backup-p1/css/style.css
++++ b/css/style.css
+@@ -296,3 +296,66 @@ body.menu-open{overflow:hidden}
+  .header nav>a:not(.nav-shop){font-size:25px;line-height:1.1;padding:8px 0;min-height:44px}
+  .header nav>a.nav-shop{margin-top:8px;padding:12px 20px;min-height:44px}
+ }
++
++/* P2 — Local depth, short sensory gestures, and quiet resting states. */
++.hero-product{perspective:900px;transition:none}
++.hero-product .hero-slide{transform-origin:50% 65%;backface-visibility:hidden;will-change:auto}
++.hero-product.is-transitioning .hero-slide{will-change:transform,opacity}
++.hero-product .hero-slide.is-display{transform-origin:50% 70%}
++.hero-backword,.flavor-seal{transition:color .45s,background .45s}
++.vibe-art{perspective:850px;isolation:isolate}
++.vibe-art>img{z-index:2;backface-visibility:hidden}
++.vibe-art>.motion-ghost{z-index:3;pointer-events:none;grid-area:auto}
++.classic-picture>.motion-ghost{z-index:3;pointer-events:none}
++.classic-picture>img{backface-visibility:hidden;transform-origin:50% 65%}
++.classic-picture{perspective:1000px}
++.vibe-panel:before{display:none}
++.vibe-art:after{content:'';position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,transparent 20%,#ffffff80 48%,transparent 75%);opacity:0;pointer-events:none;z-index:1}
++.vibe-panel[data-motion=azedo] .vibe-art{transition-duration:.24s}
++.vibe-panel[data-motion=doce] .vibe-art{transition-duration:.62s}
++.vibe-panel[data-motion=tubes] .vibe-art{transition-duration:.42s}
++.vibe-panel[data-motion=classicos] .vibe-art{transition-duration:.35s}
++.vibe-panel[data-motion=azedo] .is-reacting:after{animation:sour-prickle .46s ease-out}
++.vibe-panel[data-motion=doce] .is-reacting:after{animation:sweet-bloom .64s ease-in-out}
++.vibe-panel[data-motion=tubes] .is-reacting:after{animation:tube-pass .54s cubic-bezier(.42,0,.2,1)}
++.vibe-panel[data-motion=classicos] .is-reacting:after{animation:classic-press .42s ease-out}
++@keyframes sour-prickle{0%,100%{opacity:0}20%,48%{opacity:.3}34%,65%{opacity:.05}}
++@keyframes sweet-bloom{0%{opacity:0;transform:scale(.85)}55%{opacity:.4}100%{opacity:0;transform:scale(1)}}
++@keyframes tube-pass{0%{opacity:0;transform:translateX(-30%)}40%{opacity:.5}100%{opacity:0;transform:translateX(30%)}}
++@keyframes classic-press{0%{opacity:0;transform:scaleY(.9)}40%{opacity:.25}100%{opacity:0;transform:scaleY(1)}}
++.depth-layer{will-change:auto}
++.world.is-in-view .depth-layer{will-change:transform}
++.world-text.depth-layer{will-change:auto}
++.button{transition:transform .22s cubic-bezier(.2,.7,.3,1),box-shadow .22s}
++.button:hover,.button:focus-visible{transform:translateY(-2px);box-shadow:0 5px 0 #29207418}
++.button:active{transform:translateY(1px) scale(.98);box-shadow:none;transition-duration:.1s}
++.button:focus-visible span,.text-link:focus-visible span{transform:translate(2px,-2px)}
++.vibe-tabs button{transition:color .16s,transform .16s}
++.vibe-tabs button:hover{transform:translateY(-1px)}
++.vibe-tabs button:active{transform:translateY(1px)}
++.vibe-tabs button[aria-selected=true]:after{transform-origin:left;animation:tab-mark .22s ease-out}
++@keyframes tab-mark{from{transform:scaleX(.4)}to{transform:scaleX(1)}}
++.slider-controls button{transition:transform .18s,background .18s,color .18s}
++.slider-controls button:hover{transform:scale(1.04)}
++.slider-controls button:active{transform:scale(.94)}
++.js .vibes .reveal>div{transition-duration:.65s}
++.js .classics .reveal h2{transition-duration:.65s}
++.js .world-text.reveal h2{transition-duration:.8s}
++.js .about-copy.reveal>h2{transition-duration:.65s;transition-delay:.1s}
++.js .about-copy.reveal>p,.js .about-copy.reveal .about-facts{transition-duration:.65s;transition-delay:.22s}
++.js .about-art.reveal img{transition-duration:.7s,.85s;transition-delay:.12s}
++.final-lineup img{transition-duration:.8s,.5s}
++.ticker.motion-rest>div{animation-play-state:paused}
++.motion-suspended *,.motion-suspended *:before,.motion-suspended *:after{animation-play-state:paused!important}
++@media(max-width:767px){
++ .hero-product{perspective:750px}
++ .header nav>a:not(.nav-shop){transition-duration:.32s}
++ .header nav>a:nth-child(2){transition-delay:30ms}.header nav>a:nth-child(3){transition-delay:60ms}.header nav>a:nth-child(4){transition-delay:90ms}
++ .world.is-in-view .depth-layer{will-change:auto}
++}
++@media(prefers-reduced-motion:reduce){
++ .hero-product,.vibe-art,.classic-picture{perspective:none}
++ .hero-product.is-transitioning .hero-slide,.world.is-in-view .depth-layer{will-change:auto}
++ .vibe-art:after{display:none}
++ .button:hover,.button:focus-visible,.vibe-tabs button:hover,.slider-controls button:hover{transform:none}
++}
+diff --git a/auditoria/p2-20261024-01/backup-p1/js/script.js b/js/script.js
+index 32366f5..b410a8a 100644
+--- a/auditoria/p2-20261024-01/backup-p1/js/script.js
++++ b/js/script.js
+@@ -52,14 +52,53 @@ function loadProduct(name) {
+   }
+   return imageCache.get(name);
+ }
+-const organicEase = 'cubic-bezier(.19,.85,.25,1)';
+-function play(element, keyframes, duration = 620, delay = 0) {
+-  if (reducedMotion.matches || !element.animate) return Promise.resolve();
+-  element.getAnimations().forEach(animation => animation.cancel());
+-  const animation = element.animate(keyframes, {duration, delay, easing: organicEase, fill:'forwards'});
+-  return animation.finished.catch(() => {});
++const motionEase = {
++  settle: 'cubic-bezier(.18,.72,.24,1)',
++  travel: 'cubic-bezier(.42,0,.2,1)',
++  snap: 'cubic-bezier(.16,.9,.3,1)',
++  soft: 'cubic-bezier(.25,.5,.3,1)'
++};
++// Only live WAAPI jobs are retained. CSS returns to the approved P1 resting pose.
++const motionJobs = new Map();
++let lastMotionPreference = reducedMotion.matches;
++function syncMotionPlayback() {
++  document.documentElement.classList.toggle('motion-suspended', document.hidden);
++  motionJobs.forEach(({hero}, animation) => {
++    if (reducedMotion.matches) { animation.finish(); return; }
++    const paused = document.hidden || (hero && (heroUserPaused || !heroVisible));
++    if (paused && animation.playState === 'running') animation.pause();
++    else if (!paused && animation.playState === 'paused') animation.play();
++  });
++}
++function cancelAnimations(elements) {
++  motionJobs.forEach(({element}, animation) => { if (elements.includes(element)) animation.cancel(); });
++}
++function play(element, keyframes, duration = 480, delay = 0, easing = motionEase.settle) {
++  if (reducedMotion.matches !== lastMotionPreference) applyMotionPreference();
++  const hero = Boolean(element.closest('.hero-art'));
++  if (reducedMotion.matches || !element.animate || (hero && heroUserPaused)) return Promise.resolve();
++  cancelAnimations([element]);
++  const animation = element.animate(keyframes, {duration, delay, easing, fill:'both'});
++  motionJobs.set(animation, {element, hero});
++  syncMotionPlayback();
++  return animation.finished.catch(() => {}).finally(() => {
++    motionJobs.delete(animation);
++    animation.cancel();
++  });
++}
++function clearGhosts(container) {
++  container.querySelectorAll('.motion-ghost').forEach(element => { cancelAnimations([element]); element.remove(); });
++}
++function productGhost(image) {
++  const ghost = image.cloneNode();
++  ghost.removeAttribute('id');
++  ghost.alt = ''; ghost.setAttribute('aria-hidden', 'true');
++  ghost.classList.add('motion-ghost');
++  // One layout read per interaction, never per animation frame.
++  Object.assign(ghost.style, {position:'absolute',left:`${image.offsetLeft}px`,top:`${image.offsetTop}px`,width:`${image.offsetWidth}px`,height:`${image.offsetHeight}px`,margin:'0',maxWidth:'none'});
++  image.parentElement.append(ghost);
++  return ghost;
+ }
+-function cancelAnimations(elements) { elements.forEach(element => element.getAnimations().forEach(animation => animation.cancel())); }
+ 
+ const vibes = {
+   azedo: { color: '#eee5f8', kicker: 'UM ARREPIO BOM.', name: 'Azedinho.\nAtitude de sobra.', description: 'Uma careta, um sorriso e aquela vontade de experimentar de novo. Minhocas Azedinhas: cores e sabores que surpreendem.', image: 'balafini6', alt: 'Fini Minhocas Azedinhas', sticker: 'BORA\nARREPIAR?', word: 'Aaah!' },
+@@ -70,33 +109,51 @@ const vibes = {
+ const tabs = [...document.querySelectorAll('[data-vibe]')];
+ const vibePanel = document.querySelector('#vibe-panel');
+ const vibeArt = document.querySelector('.vibe-art');
+-let vibeRequest = 0;
++let vibeRequest = 0, vibeShown = 'azedo';
++const sensationMotion = {
++  azedo: {duration:460, ease:motionEase.snap, frames:[{transform:'translateX(-8px) rotate(-4deg)'},{transform:'translateX(5px) rotate(3deg)',offset:.25},{transform:'translateX(-2px) rotate(-1deg)',offset:.55},{transform:'none'}]},
++  doce: {duration:640, ease:motionEase.soft, frames:[{transform:'translateY(14px) scale(.94)'},{transform:'translateY(-3px) scale(1.025)',offset:.7},{transform:'none'}]},
++  tubes: {duration:540, ease:motionEase.travel, frames:[{transform:'translateX(26px) rotateY(-16deg) rotate(-4deg)'},{transform:'translateX(-3px) rotateY(3deg) rotate(1deg)',offset:.78},{transform:'none'}]},
++  classicos: {duration:420, ease:motionEase.settle, frames:[{transform:'scale(.96) rotate(3deg)'},{transform:'scale(1.015) rotate(-1deg)',offset:.7},{transform:'none'}]}
++};
+ async function chooseVibe(tab) {
+   const request = ++vibeRequest;
+-  const data = vibes[tab.dataset.vibe];
+-  let ready;
+-  try { ready = await loadProduct(data.image); } catch { return; }
+-  if (request !== vibeRequest) return;
++  const key = tab.dataset.vibe, data = vibes[key];
++  // Selection feedback does not wait for image decoding or an exit animation.
+   tabs.forEach(item => { const selected = item === tab; item.setAttribute('aria-selected', String(selected)); item.tabIndex = selected ? 0 : -1; });
+   vibePanel.setAttribute('aria-labelledby', tab.id);
+-  const image = document.querySelector('#vibe-image');
+-  const content = document.querySelector('.vibe-content');
+-  cancelAnimations([image, content]);
+-  vibePanel.style.setProperty('--wipe-color', data.color);
+-  vibePanel.classList.remove('sweeping');
+-  await play(image, [{transform:'rotate(0deg)',opacity:1},{transform:'translate3d(100px,0,0) rotate(22deg) scale(.94)',opacity:0}], 230);
++  vibePanel.setAttribute('aria-busy', 'true');
++  let ready;
++  try { ready = await loadProduct(data.image); } catch {
++    if (request === vibeRequest) {
++      tabs.forEach(item => { const selected = item.dataset.vibe === vibeShown; item.setAttribute('aria-selected', String(selected)); item.tabIndex = selected ? 0 : -1; });
++      vibePanel.setAttribute('aria-labelledby', `tab-${vibeShown}`);
++      vibePanel.removeAttribute('aria-busy');
++    }
++    return;
++  }
+   if (request !== vibeRequest) return;
++  const image = document.querySelector('#vibe-image');
++  cancelAnimations([image]); clearGhosts(vibeArt);
++  const ghost = productGhost(image);
++  vibePanel.dataset.motion = key;
+   vibePanel.style.setProperty('--vibe-color', data.color);
+-  vibePanel.classList.add('sweeping');
+-    document.querySelector('#vibe-kicker').textContent = data.kicker;
+-    document.querySelector('#vibe-name').innerText = data.name;
+-    document.querySelector('#vibe-description').textContent = data.description;
+-    document.querySelector('#vibe-sticker').textContent = data.sticker.replace('\n', ' ');
+-    document.querySelector('.vibe-letter').textContent = data.word;
+-    image.src = ready.src; image.alt = data.alt;
+-    image.classList.toggle('is-display', data.image.startsWith('caixa'));
+-  play(image, [{transform:'translate3d(-100px,20px,0) rotate(-8deg) scale(.86)',opacity:0},{transform:'translate3d(5px,-4px,0) rotate(12deg) scale(1.015)',opacity:1,offset:.75},{transform:'rotate(0deg)',opacity:1}], 740);
+-  play(content, [{clipPath:'inset(0 100% 0 0)',transform:'translateX(-10px)'},{clipPath:'inset(0)',transform:'translateX(0)'}], 600);
++  document.querySelector('#vibe-kicker').textContent = data.kicker;
++  document.querySelector('#vibe-name').innerText = data.name;
++  document.querySelector('#vibe-description').textContent = data.description;
++  document.querySelector('#vibe-sticker').textContent = data.sticker.replace('\n', ' ');
++  document.querySelector('.vibe-letter').textContent = data.word;
++  image.src = ready.src; image.alt = data.alt;
++  image.classList.toggle('is-display', data.image.startsWith('caixa'));
++  vibeShown = key;
++  vibePanel.removeAttribute('aria-busy');
++  vibeArt.classList.add('is-reacting');
++  const motion = sensationMotion[key];
++  await Promise.all([
++    play(ghost, [{transform:'none',opacity:1},{transform:'scale(.94)',opacity:0}], 170, 0, motionEase.soft).then(() => ghost.remove()),
++    play(image, motion.frames, motion.duration, 0, motion.ease)
++  ]);
++  if (request === vibeRequest) vibeArt.classList.remove('is-reacting');
+ }
+ tabs.forEach((tab, index) => {
+   tab.addEventListener('click', () => chooseVibe(tab));
+@@ -117,7 +174,7 @@ const classics = [
+   { name: 'Amoras', image: 'balafini1', flavor: 'SABOR AMORA', description: 'Textura marcante e um formato que você reconhece de olhos fechados. Um pequeno ícone cheio de sabor.', tag: 'TEXTURA QUE MARCA', color: '#f4cdd9' },
+   { name: 'Tubes', image: 'caixafini5', flavor: 'SABOR MAÇÃ DO AMOR', description: 'O regaliz em uma versão cheia de personalidade. Maçã do amor para dar um novo sabor à sua pausa.', tag: 'UM FORMATO, MUITAS HISTÓRIAS', color: '#eccfea' }
+ ];
+-let classicIndex = 0, classicRequest = 0;
++let classicIndex = 0, classicRequest = 0, classicShown = 0;
+ const classicStage = document.querySelector('.classic-stage');
+ const classicSelectors = [...document.querySelectorAll('[data-classic]')];
+ async function chooseClassic(index) {
+@@ -125,22 +182,28 @@ async function chooseClassic(index) {
+   classicIndex = (index + classics.length) % classics.length;
+   const request = ++classicRequest;
+   const data = classics[classicIndex], number = String(classicIndex + 1).padStart(2, '0');
++  classicSelectors.forEach((button, i) => button.setAttribute('aria-pressed', String(i === classicIndex)));
++  classicStage.setAttribute('aria-busy', 'true');
+   let ready;
+-  try { ready = await loadProduct(data.image); } catch { classicIndex = previous; return; }
++  try { ready = await loadProduct(data.image); } catch {
++    if (request === classicRequest) {
++      classicIndex = classicShown;
++      classicSelectors.forEach((button, i) => button.setAttribute('aria-pressed', String(i === classicShown)));
++      classicStage.removeAttribute('aria-busy');
++    }
++    return;
++  }
+   if (request !== classicRequest) return;
+   const direction = index < previous ? -1 : 1;
+   const image = document.querySelector('#classic-image');
+   const numberElement = document.querySelector('#classic-number');
+   const name = document.querySelector('#classic-name');
+   cancelAnimations([image, numberElement, name]);
+-  classicSelectors.forEach((button, i) => button.setAttribute('aria-pressed', String(i === classicIndex)));
++  clearGhosts(image.parentElement);
++  const ghost = productGhost(image);
++  const display = data.image.startsWith('caixa');
++  const distance = Math.min(170, image.parentElement.clientWidth * .45);
+   document.querySelector('#classic-count').textContent = `${number} / 05`;
+-  await Promise.all([
+-    play(image, [{transform:'rotate(-10deg)',opacity:1},{transform:`translate3d(${direction*120}px,-12px,0) rotate(${direction*15}deg) scale(.9)`,opacity:0}], 260),
+-    play(numberElement, [{transform:'translateX(0)',opacity:1},{transform:`translateX(${-direction*35}px)`,opacity:.2}], 260),
+-    play(name, [{clipPath:'inset(0)'},{clipPath:'inset(0 0 100% 0)'}], 210)
+-  ]);
+-  if (request !== classicRequest) return;
+     document.querySelector('#classic-number').textContent = number;
+     document.querySelector('#classic-name').textContent = data.name;
+     document.querySelector('#classic-flavor').textContent = data.flavor;
+@@ -150,9 +213,15 @@ async function chooseClassic(index) {
+     image.src = ready.src; image.alt = `Fini ${data.name}`;
+     image.classList.toggle('is-display', data.image.startsWith('caixa'));
+     document.querySelector('.classic-disc').style.transform = `rotate(${classicIndex % 2 ? 9 : -14}deg)`;
+-  play(image, [{transform:`translate3d(${-direction*120}px,15px,0) rotate(${-direction*23}deg) scale(.9)`,opacity:0},{transform:'translate3d(5px,-4px,0) rotate(-8deg) scale(1.02)',opacity:1,offset:.78},{transform:'rotate(-10deg)',opacity:1}], 760);
+-  play(numberElement, [{transform:`translateX(${direction*45}px)`,opacity:.1},{transform:'translateX(0)',opacity:1}], 750);
+-  play(name, [{clipPath:'inset(100% 0 0 0)',transform:'translateY(15px)'},{clipPath:'inset(0)',transform:'translateY(0)'}], 650, 90);
++  classicShown = classicIndex;
++  classicStage.removeAttribute('aria-busy');
++  // Both products occupy the same track; next and previous reverse that track.
++  const amplitude = window.innerWidth < 768 ? .65 : 1;
++  await Promise.all([
++    play(ghost, [{transform:'rotate(-10deg)',opacity:1},{transform:`translate3d(${-direction*distance*amplitude}px,0,-90px) rotate(${display ? -12 : -10-direction*9}deg)`,opacity:0}], 400, 0, motionEase.travel).then(() => ghost.remove()),
++    play(image, [{transform:`translate3d(${direction*distance*amplitude}px,${display ? 0 : 10}px,-100px) rotateY(${direction*(display?12:5)}deg) rotate(${display ? -7 : -10+direction*8}deg)`,opacity:.3},{transform:'translate3d(0,-2px,0) rotate(-11deg)',opacity:1,offset:.8},{transform:'rotate(-10deg)',opacity:1}], display ? 620 : 520, 0, motionEase.travel),
++    play(numberElement, [{transform:`translateX(${direction*10}px)`},{transform:'none'}], 440, 0, motionEase.settle)
++  ]);
+ }
+ document.querySelector('#classic-prev').addEventListener('click', () => chooseClassic(classicIndex - 1));
+ document.querySelector('#classic-next').addEventListener('click', () => chooseClassic(classicIndex + 1));
+@@ -181,6 +250,14 @@ const campaign = [
+ ];
+ let heroIndex = 0, heroTimer = 0, heroChanging = false, heroVisible = true, heroUserPaused = false, heroFocusPaused = false;
+ let heroGeneration = 0;
++let heroTarget = 0, heroPending = null;
++const heroChoreography = [
++  {duration:920, ease:motionEase.settle, start:'translate3d(-24px,62px,-130px) rotateY(-12deg) rotate(-14deg)', crest:'translate3d(4px,-9px,10px) rotate(3deg)'},
++  {duration:820, ease:motionEase.travel, start:'translate3d(0,-36px,-90px) rotateX(12deg) rotate(9deg)', crest:'translate3d(0,7px,8px) rotate(-2deg)'},
++  {duration:760, ease:motionEase.snap, start:'translate3d(-12px,34px,-70px) rotate(-6deg) scale(.95)', crest:'translate3d(0,-5px,6px) rotate(2deg)'},
++  {duration:900, ease:motionEase.soft, start:'translate3d(8px,0,-160px) rotateY(7deg) scale(.88)', crest:'translate3d(0,0,12px) scale(1.015)'},
++  {duration:980, ease:motionEase.travel, start:'translate3d(42px,18px,-140px) rotateY(15deg) rotate(5deg)', crest:'translate3d(-3px,0,5px) rotate(-1deg)'}
++];
+ const heroPause = document.querySelector('#hero-pause');
+ const heroNext = document.querySelector('#hero-next');
+ function canRotateHero() { return heroVisible && !document.hidden && !heroUserPaused && !reducedMotion.matches && !heroFocusPaused; }
+@@ -192,12 +269,18 @@ function scheduleHero() {
+   heroTimer = setTimeout(() => presentHero((heroIndex + 1) % campaign.length), 4200);
+ }
+ async function presentHero(index) {
+-  if (heroChanging) return;
++  if (heroChanging) { heroPending = index; return; }
++  heroTarget = index;
+   heroChanging = true; clearTimeout(heroTimer);
+   const generation = ++heroGeneration;
+   const data = campaign[index];
+   let ready;
+-  try { ready = await loadProduct(data.image); } catch { heroChanging = false; scheduleHero(); return; }
++  try { ready = await loadProduct(data.image); } catch {
++    heroChanging = false; heroTarget = heroIndex;
++    const pending = heroPending; heroPending = null;
++    if (pending !== null) presentHero(pending); else scheduleHero();
++    return;
++  }
+   if (generation !== heroGeneration) return;
+   const outgoing = heroProduct.querySelector('.is-current');
+   const incoming = ready.cloneNode();
+@@ -205,24 +288,30 @@ async function presentHero(index) {
+   incoming.setAttribute('aria-hidden','true');
+   incoming.width = 550; incoming.height = 880;
+   heroProduct.append(incoming);
++  heroProduct.classList.add('is-transitioning');
+   heroArt.style.setProperty('--hero-accent', data.accent);
+   heroArt.style.setProperty('--hero-word', data.wordColor);
+   const word = document.querySelector('.hero-backword');
+   word.textContent = data.word;
+-  play(word, [{transform:'rotate(-18deg) scale(.86)',opacity:.35},{transform:'rotate(-12deg) scale(1)',opacity:1}], 850);
++  play(word, [{transform:'rotate(-14deg) scale(.96)'},{transform:'rotate(-12deg) scale(1)'}], 500, 120, motionEase.soft);
+   const seal = document.querySelector('.flavor-seal');
+   seal.replaceChildren();
+   data.seal.split('\n').forEach((line, i) => { const piece = document.createElement(i === 2 ? 'strong' : 'span'); piece.textContent = line; seal.append(piece); });
+-  play(seal, [{transform:'rotate(13deg) scale(1)'},{transform:'rotate(-6deg) scale(.88)',offset:.3},{transform:'rotate(13deg) scale(1)'}], 700);
+-  // Incoming enters before outgoing has completely left; there is never an empty frame.
++  play(seal, [{transform:'rotate(9deg) scale(.97)'},{transform:'rotate(14deg) scale(1.015)',offset:.7},{transform:'rotate(13deg) scale(1)'}], 440, 260, motionEase.settle);
++  document.querySelector('#hero-caption').textContent = `${String(index + 1).padStart(2,'0')} / ${data.name.toUpperCase()}`;
++  const motion = heroChoreography[index];
++  const start = window.innerWidth < 768 ? motion.start.replace(/-1[346]0px/g, '-60px') : motion.start;
++  // Anticipation, shared depth plane, small overshoot, then a real reading pause.
+   await Promise.all([
+-    play(outgoing, [{transform:'translate3d(0,0,0) rotate(0deg) scale(1)',opacity:1},{transform:'translate3d(32px,-85px,0) rotate(13deg) scale(.88)',opacity:0}], 620),
+-    play(incoming, [{transform:'translate3d(-35px,120px,0) rotate(-18deg) scale(.76)',opacity:0},{transform:'translate3d(5px,-8px,0) rotate(3deg) scale(1.025)',opacity:1,offset:.78},{transform:'translate3d(0,0,0) rotate(0deg) scale(1)',opacity:1}], 880, 100)
++    play(outgoing, [{transform:'none',opacity:1},{transform:'translate3d(-3px,5px,5px) rotate(-2deg)',opacity:1,offset:.18},{transform:`translate3d(${index===4?-26:30}px,-34px,-150px) rotateY(-9deg) rotate(${index===1?-8:8}deg) scale(.94)`,opacity:0}], 560, 0, motionEase.travel).then(() => outgoing.remove()),
++    play(incoming, [{transform:start,opacity:0},{transform:motion.crest,opacity:1,offset:.76},{transform:'none',opacity:1}], motion.duration, 60, motion.ease)
+   ]);
+   outgoing.remove(); incoming.classList.add('is-current'); incoming.removeAttribute('aria-hidden');
+   heroIndex = index;
+-  document.querySelector('#hero-caption').textContent = `${String(index + 1).padStart(2,'0')} / ${data.name.toUpperCase()}`;
+-  heroChanging = false; scheduleHero();
++  heroProduct.classList.remove('is-transitioning');
++  heroChanging = false;
++  const pending = heroPending; heroPending = null;
++  if (pending !== null && pending !== heroIndex) presentHero(pending); else scheduleHero();
+ }
+ function updatePauseControl() {
+   heroPause.setAttribute('aria-pressed', String(heroUserPaused));
+@@ -234,16 +323,20 @@ function updatePauseControl() {
+ heroPause.addEventListener('click', () => {
+   heroUserPaused = !heroUserPaused;
+   if (!heroUserPaused) heroFocusPaused = false;
+-  updatePauseControl(); scheduleHero(); requestMotion();
++  updatePauseControl(); syncMotionPlayback(); scheduleHero(); requestMotion();
++});
++heroNext.addEventListener('click', () => {
++  presentHero(((heroPending ?? heroTarget) + 1) % campaign.length);
++  // A deliberate step while paused settles the current frame and displays the queued item.
++  if (heroUserPaused) motionJobs.forEach(({hero}, animation) => { if (hero) animation.finish(); });
+ });
+-heroNext.addEventListener('click', () => presentHero((heroIndex + 1) % campaign.length));
+ document.querySelector('.hero-player').addEventListener('focusin', () => { heroFocusPaused = true; scheduleHero(); });
+ document.querySelector('.hero-player').addEventListener('focusout', () => setTimeout(() => {
+   if (!document.querySelector('.hero-player').contains(document.activeElement)) heroFocusPaused = false;
+   scheduleHero();
+ }, 0));
+ if ('IntersectionObserver' in window) {
+-  new IntersectionObserver(entries => { heroVisible = entries[0].isIntersecting; scheduleHero(); requestMotion(); }, {threshold:.1}).observe(heroArt);
++  new IntersectionObserver(entries => { heroVisible = entries[0].isIntersecting; syncMotionPlayback(); scheduleHero(); requestMotion(); }, {threshold:.1}).observe(heroArt);
+ }
+ 
+ // Orbital geometry is cached on resize. Per-frame updates touch only transforms,
+@@ -253,28 +346,40 @@ const world = document.querySelector('.world');
+ const depthLayers = [...world.querySelectorAll('.depth-layer')];
+ let frame = 0, pointerX = 0, pointerY = 0, dirty = true;
+ let geometry, orbitTime = 0, previousTime = 0;
++let worldTarget = 0, worldOffset = 0, worldInView = false, lastRender = 0;
++let pointerRenderX = 0, pointerRenderY = 0;
+ function measureOrbit() {
+   const line = heroArt.querySelector('.orbit');
+-  geometry = {cx:line.offsetLeft+line.offsetWidth/2,cy:line.offsetTop+line.offsetHeight/2,rx:line.offsetWidth/2,ry:line.offsetHeight/2};
++  geometry = {cx:heroProduct.offsetLeft+heroProduct.offsetWidth/2,cy:heroProduct.offsetTop+heroProduct.offsetHeight/2,rx:line.offsetWidth*.37,ry:line.offsetHeight*.41};
+ }
+ function drawOrbits() {
+   const rotation = -20 * Math.PI / 180;
+   satellites.forEach(element => {
+     const track = Number(element.dataset.track);
+-    const theta = orbitTime * Math.PI * 2 / Number(element.dataset.period) + Number(element.dataset.phase);
+-    const rx = geometry.rx + track * 20, ry = geometry.ry - track * 30;
++    const cycle = orbitTime / Number(element.dataset.period) + Number(element.dataset.phase)/(Math.PI*2);
++    const fraction = cycle - Math.floor(cycle);
++    const progress = Math.min(1,fraction/.84);
++    // Each sweet coasts and then rests for 16% of its own staggered period.
++    const theta = (Math.floor(cycle) + progress*progress*(3-2*progress)) * Math.PI*2;
++    const rx = geometry.rx + track * 14, ry = geometry.ry - track * 20;
+     const x = Math.cos(theta) * rx, y = Math.sin(theta) * ry;
+     const depth = (Math.sin(theta)+1)/2;
+     element.style.setProperty('--orbit-x', `${geometry.cx+x*Math.cos(rotation)-y*Math.sin(rotation)}px`);
+     element.style.setProperty('--orbit-y', `${geometry.cy+x*Math.sin(rotation)+y*Math.cos(rotation)}px`);
+-    element.style.setProperty('--orbit-rotation', `${theta*180/Math.PI+track*35}deg`);
+-    element.style.setProperty('--orbit-scale', String(.76+depth*.3));
+-    element.style.setProperty('--orbit-opacity', String(.67+depth*.33));
++    const rocking = element.classList.contains('ring') ? theta*35 : Math.sin(theta)*28+track*17-12;
++    element.style.setProperty('--orbit-rotation', `${rocking}deg`);
++    element.style.setProperty('--orbit-scale', String(.68+depth*.48));
++    element.style.setProperty('--orbit-opacity', String(.62+depth*.38));
+     element.style.zIndex = depth > .5 ? '5' : '2';
+   });
+ }
+ function renderMotion(time) {
+   frame = 0;
++  // Some emulated/browser preference changes update matches before delivering change.
++  if (reducedMotion.matches !== lastMotionPreference) { applyMotionPreference(); return; }
++  if (document.hidden) { previousTime = lastRender = 0; return; }
++  const dt = Math.min(lastRender ? time-lastRender : 16.7,40);
++  lastRender = time;
+   const active = !reducedMotion.matches && window.innerWidth >= 768;
+   const orbitActive = !reducedMotion.matches && heroVisible && !heroUserPaused && !document.hidden;
+   if (orbitActive && previousTime) orbitTime += Math.min(time-previousTime, 40)/1000;
+@@ -282,19 +387,33 @@ function renderMotion(time) {
+   if (dirty) {
+     dirty = false;
+     const rect = world.getBoundingClientRect();
+-    const offset = active && rect.bottom > 0 && rect.top < window.innerHeight ? window.innerHeight/2-rect.top-rect.height/2 : 0;
++    worldInView = rect.bottom > 0 && rect.top < window.innerHeight;
++    worldTarget = active && worldInView ? window.innerHeight/2-rect.top-rect.height/2 : 0;
++    world.classList.toggle('is-in-view', active && worldInView);
+     header.classList.toggle('scrolled', window.scrollY > 50);
+-    heroProduct.style.setProperty('--px', `${active ? pointerX*.7 : 0}px`);
+-    heroProduct.style.setProperty('--py', `${active ? pointerY*.7 : 0}px`);
++  }
++  const damping = 1-Math.exp(-dt/85);
++  worldOffset = active ? worldOffset+(worldTarget-worldOffset)*damping : 0;
++  const pointerActive = active && !heroUserPaused;
++  if (!heroUserPaused) {
++    pointerRenderX += ((pointerActive ? pointerX*.7 : 0)-pointerRenderX)*damping;
++    pointerRenderY += ((pointerActive ? pointerY*.7 : 0)-pointerRenderY)*damping;
++    heroProduct.style.setProperty('--px', `${pointerRenderX.toFixed(3)}px`);
++    heroProduct.style.setProperty('--py', `${pointerRenderY.toFixed(3)}px`);
++  }
++  if (active && worldInView || !active || Math.abs(worldOffset)>.1) {
+     depthLayers.forEach(element => {
+-      const drift = Math.max(-150,Math.min(150,offset*Number(element.dataset.drift)));
++      const text = element.classList.contains('world-text');
++      const limit = text ? 5 : element.classList.contains('world-pack') ? 50 : 70;
++      const drift = Math.max(-limit,Math.min(limit,worldOffset*Number(element.dataset.drift)*.48));
+       element.style.setProperty('--drift', `${drift}px`);
+-      element.style.setProperty('--spin', `${active ? offset/600*Number(element.dataset.spin || 0) : 0}deg`);
+-      element.style.setProperty('--depth-scale', String(active && element.classList.contains('world-pack') ? 1+Math.min(.035,Math.abs(offset)/16000) : 1));
++      element.style.setProperty('--spin', `${active ? Math.max(-6,Math.min(6,worldOffset/1200*Number(element.dataset.spin || 0))) : 0}deg`);
++      element.style.setProperty('--depth-scale', String(active && element.classList.contains('world-pack') ? 1+Math.min(.018,Math.abs(worldOffset)/24000) : 1));
+     });
+   }
+   if (heroVisible) drawOrbits();
+-  if (orbitActive) frame = requestAnimationFrame(renderMotion);
++  const settling = active && (Math.abs(worldTarget-worldOffset)>.15 || (!heroUserPaused && (Math.abs(pointerX*.7-pointerRenderX)>.05 || Math.abs(pointerY*.7-pointerRenderY)>.05)));
++  if (orbitActive || settling) frame = requestAnimationFrame(renderMotion);
+ }
+ function requestMotion() { dirty = true; if (!frame) frame = requestAnimationFrame(renderMotion); }
+ heroArt.addEventListener('pointermove', event => {
+@@ -307,17 +426,26 @@ heroArt.addEventListener('pointermove', event => {
+ heroArt.addEventListener('pointerleave', () => { pointerX = pointerY = 0; requestMotion(); });
+ window.addEventListener('scroll', requestMotion, { passive: true });
+ window.addEventListener('resize', () => { measureOrbit(); requestMotion(); }, { passive: true });
+-document.addEventListener('visibilitychange', () => { scheduleHero(); requestMotion(); });
+-reducedMotion.addEventListener('change', () => {
++document.addEventListener('visibilitychange', () => { previousTime = lastRender = 0; syncMotionPlayback(); scheduleHero(); requestMotion(); });
++function applyMotionPreference() {
++  lastMotionPreference = reducedMotion.matches;
++  // Finish finite transitions, including paused ones, so reduced motion never hides content.
+   document.querySelectorAll('main *').forEach(element => element.getAnimations().forEach(animation => {
+     if (animation.effect.getTiming().iterations !== Infinity && animation.playState !== 'finished') animation.finish();
+   }));
++  syncMotionPlayback();
++  if (reducedMotion.matches) { pointerX = pointerY = pointerRenderX = pointerRenderY = worldOffset = worldTarget = 0; }
+   updatePauseControl(); scheduleHero(); requestMotion();
+-});
++}
++reducedMotion.addEventListener('change', applyMotionPreference);
+ classicStage.addEventListener('pointermove', event => {
+   if (event.pointerType !== 'mouse' || reducedMotion.matches || window.innerWidth < 768) return;
+   const rect = classicStage.getBoundingClientRect();
+   document.querySelector('.classic-picture').style.setProperty('--tilt', `${((event.clientX-rect.left)/rect.width-.5)*8}deg`);
+ });
+ classicStage.addEventListener('pointerleave', () => document.querySelector('.classic-picture').style.setProperty('--tilt','0deg'));
++if ('IntersectionObserver' in window) {
++  const ticker = document.querySelector('.ticker');
++  new IntersectionObserver(entries => ticker.classList.toggle('motion-rest', !entries[0].isIntersecting)).observe(ticker);
++}
+ measureOrbit(); updatePauseControl(); requestMotion(); scheduleHero();
