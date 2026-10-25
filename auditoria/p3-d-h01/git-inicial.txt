@@ -1,0 +1,10 @@
+ M PLANO-P3-FINI.md
+?? RELATORIO-P3-H01-V02-FINI.md
+?? RELATORIO-P3-PILOTO-FINI.md
+?? REVISAO-VISUAL-FINI-P3-H01-V02.zip
+?? REVISAO-VISUAL-FINI-P3-H01.zip
+?? assets/images/candies/
+?? auditoria/p3-20261025-01/
+?? auditoria/p3-d-h01/
+?? auditoria/p3-h01-v02/
+?? design/

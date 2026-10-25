@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "source": "FiniStore",
+  "product": "Minhocas Azedinhas 500g",
+  "productReference": "315500M13003",
+  "page": "https://www.finistore.com.br/balas-de-gelatina/minhocas-azedinhas-500g---fini/500g/315500M13003.html",
+  "publicationRightsConfirmed": false,
+  "references": [
+    {
+      "file": "MINHOCACITRICA_U3_1000X1000.jpg",
+      "url": "https://www.finistore.com.br/dw/image/v2/BHBX_PRD/on/demandware.static/-/Sites-fini-master-catalog/default/dw1c91962d/images/swatch/MINHOCACITRICA_U3_1000X1000.jpg?sh=1000&sm=fit&sw=1000",
+      "role": "alvo da edicao: unidade verde com pontas laranja em primeiro plano",
+      "sha256": "a957970a9969b4b9aae03a636b8da6a9a1df44631f1621caaf71bce6fd1d1456",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "file": "MINHOCACITRICA_C_1000X1000.jpg",
+      "url": "https://www.finistore.com.br/dw/image/v2/BHBX_PRD/on/demandware.static/-/Sites-fini-master-catalog/default/dwe41325d7/images/swatch/MINHOCACITRICA_C_1000X1000.jpg?sh=1000&sm=fit&sw=1000",
+      "role": "macro complementar de superficie",
+      "sha256": "a07b85c773b51bf388a8f6ef903eaf558383c89bddaa92d86a5b1fda7d8ca851",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    }
+  ]
+}

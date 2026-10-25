@@ -1,0 +1,5276 @@
+{
+  "reports": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "overflow": false,
+      "height": 5084,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -4084,
+          "width": 1425,
+          "height": 725,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 0,
+          "y": -3294,
+          "width": 1425,
+          "height": 913.4375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2370.5625,
+          "width": 1425,
+          "height": 921.875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1476.6875,
+          "width": 1425,
+          "height": 860,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 0,
+          "y": -616.6875,
+          "width": 1425,
+          "height": 651.015625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": 34.328125,
+          "width": 1425,
+          "height": 585.125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 619.453125,
+          "width": 1425,
+          "height": 280.6875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 78.375,
+          "y": -3927.546875,
+          "width": 558.015625,
+          "height": 267.3125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "131.04px",
+          "weight": "600",
+          "lineHeight": "133.661px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 78.375,
+          "y": -3635.234375,
+          "width": 558.015625,
+          "height": 54.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "lineHeight": "27.2px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 1041.21875,
+          "y": -3446.5,
+          "width": 152.359375,
+          "height": 33,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "700",
+          "lineHeight": "16.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 78.375,
+          "y": -3408,
+          "width": 1268.25,
+          "height": 49,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 742.875,
+          "y": -2717.671875,
+          "width": 365,
+          "height": 76.5,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "lineHeight": "25.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 773.765625,
+          "y": -1853.1875,
+          "width": 320,
+          "height": 71.390625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 653.390625,
+          "y": -1272.831787109375,
+          "width": 118.21875,
+          "height": 24,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 497.53125,
+          "y": -959.144287109375,
+          "width": 429.9375,
+          "height": 47.59375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 99.75,
+          "y": -1431.6875,
+          "width": 186,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 1186.48388671875,
+          "y": -720.959228515625,
+          "width": 155.3447265625,
+          "height": 64.54345703125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 686.21875,
+          "y": -327.0625,
+          "width": 430,
+          "height": 71.390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 99.75,
+          "y": 856.453125,
+          "width": 647.46875,
+          "height": 18.6875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 991.75,
+          "y": 731.453125,
+          "width": 333.5,
+          "height": 14,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 1105.25,
+          "y": -2150.6875,
+          "width": 45,
+          "height": 45,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "23px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 1039.5958251953125,
+          "y": -3955.145751953125,
+          "width": 76.290771484375,
+          "height": 60.65966796875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.672697"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 1169.9561767578125,
+          "y": -3745.186767578125,
+          "width": 93.1427001953125,
+          "height": 56.955322265625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.899893"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 733.7588500976562,
+          "y": -3618.551025390625,
+          "width": 71.75189208984375,
+          "height": 71.751953125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.867177"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 0,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 99.75,
+            "y": -3194,
+            "width": 1225.5,
+            "height": 133.4375,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 99.75,
+            "y": -2285.5625,
+            "width": 1225.5,
+            "height": 179.875,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 497.53125,
+            "y": -1272.831787109375,
+            "width": 429.9375,
+            "height": 452.28125,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 99.75,
+            "y": -461.1875,
+            "width": 551.46875,
+            "height": 340,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal visible",
+          "rect": {
+            "class": "about-copy reveal visible",
+            "id": "",
+            "x": 686.21875,
+            "y": -496.6875,
+            "width": 674.015625,
+            "height": 411.015625,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.0006150810646064173,
+          "sources": [
+            "#text",
+            "#text",
+            "#text"
+          ]
+        },
+        {
+          "value": 0.005313232208200814,
+          "sources": [
+            "ticker",
+            "NAV",
+            "vibes section",
+            "#text",
+            "#text"
+          ]
+        },
+        {
+          "value": 0.000026608187134502925,
+          "sources": [
+            "hero-player-controls",
+            "hero-caption"
+          ]
+        },
+        {
+          "value": 0.0013516002872678773,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0007445244690674053,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.00025720816661536884,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0004612701344003283,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0004062832324475907,
+          "sources": [
+            "::before"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 8.899999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 8.799999952316284
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 20.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 15
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 250.60000002384186
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 27.899999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 25.399999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 9.600000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 11.200000047683716
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 11.399999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 14.200000047683716
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 10.899999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 10.099999904632568
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 11.200000047683716
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 16.799999952316284
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 17.399999976158142
+        }
+      ],
+      "longTasks": [
+        94,
+        116
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "height": 5284,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -4104,
+          "width": 1905,
+          "height": 865,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 52.5,
+          "y": -3174,
+          "width": 1800,
+          "height": 921.59375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2242.40625,
+          "width": 1905,
+          "height": 938.1875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1332.21875,
+          "width": 1905,
+          "height": 860,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 52.5,
+          "y": -472.21875,
+          "width": 1800,
+          "height": 676.484375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": 204.265625,
+          "width": 1905,
+          "height": 594.90625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 799.171875,
+          "width": 1905,
+          "height": 280.6875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 202.5,
+          "y": -3912.1875,
+          "width": 660,
+          "height": 336.59375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "165px",
+          "weight": "600",
+          "lineHeight": "168.3px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 202.5,
+          "y": -3550.59375,
+          "width": 660,
+          "height": 54.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "lineHeight": "27.2px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 1341.296875,
+          "y": -3318.25,
+          "width": 157.15625,
+          "height": 16.5,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "700",
+          "lineHeight": "16.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 104.765625,
+          "y": -3288,
+          "width": 1695.46875,
+          "height": 49,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 990.5,
+          "y": -2582.671875,
+          "width": 365,
+          "height": 76.5,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "lineHeight": "25.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 1034.40625,
+          "y": -1703.3125,
+          "width": 320,
+          "height": 71.390625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 893.390625,
+          "y": -1158.550537109375,
+          "width": 118.21875,
+          "height": 24,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 685.546875,
+          "y": -784.488037109375,
+          "width": 533.90625,
+          "height": 47.59375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 133.34375,
+          "y": -1287.21875,
+          "width": 186,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 1637.68701171875,
+          "y": -576.490478515625,
+          "width": 155.3447265625,
+          "height": 64.54345703125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 910.828125,
+          "y": -157.125,
+          "width": 430,
+          "height": 71.390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 133.34375,
+          "y": 1036.171875,
+          "width": 647.46875,
+          "height": 18.6875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 1300.546875,
+          "y": 911.171875,
+          "width": 471.09375,
+          "height": 14,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 1551.65625,
+          "y": -2006.21875,
+          "width": 45,
+          "height": 45,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "23px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 1387.715087890625,
+          "y": -3943.441162109375,
+          "width": 80.13427734375,
+          "height": 59.879150390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.694797"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 1499.101806640625,
+          "y": -3681.962158203125,
+          "width": 94.953125,
+          "height": 61.084228515625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.915784"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 970.2696533203125,
+          "y": -3584.86181640625,
+          "width": 73.3436279296875,
+          "height": 73.343505859375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.842604"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 0,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 185.84375,
+            "y": -3074,
+            "width": 1533.3125,
+            "height": 141.59375,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 133.34375,
+            "y": -2157.40625,
+            "width": 1638.3125,
+            "height": 196.1875,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 685.546875,
+            "y": -1158.550537109375,
+            "width": 533.90625,
+            "height": 512.65625,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 185.84375,
+            "y": -303.984375,
+            "width": 689.984375,
+            "height": 340,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal visible",
+          "rect": {
+            "class": "about-copy reveal visible",
+            "id": "",
+            "x": 910.828125,
+            "y": -352.21875,
+            "width": 843.3125,
+            "height": 436.484375,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.005165811159040014,
+          "sources": [
+            "ticker",
+            "vibes section",
+            "#text",
+            "NAV",
+            "#text"
+          ]
+        },
+        {
+          "value": 0.0000071644587733619906,
+          "sources": [
+            "hero-player-controls"
+          ]
+        },
+        {
+          "value": 0.0003888402838534072,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0003895914293886201,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.00034228558992097406,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0005664035360992533,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.00021272114972213484,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0003992807985615971,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.00017682435364870728,
+          "sources": [
+            "::before"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 22.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 22
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 29.600000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 27.90000009536743
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 116.40000009536743
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 12.600000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 7.100000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 16.399999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 11.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 19.600000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 22.899999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 15.200000047683716
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 16
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 15.400000095367432
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 22.100000023841858
+        }
+      ],
+      "longTasks": [
+        120,
+        72
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        900
+      ],
+      "overflow": false,
+      "height": 4966,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -3981,
+          "width": 1009,
+          "height": 665,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 0,
+          "y": -3251,
+          "width": 1009,
+          "height": 892.21875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2348.78125,
+          "width": 1009,
+          "height": 864.4375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1512.34375,
+          "width": 1009,
+          "height": 860,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 0,
+          "y": -652.34375,
+          "width": 1009,
+          "height": 620.984375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": -31.359375,
+          "width": 1009,
+          "height": 559.65625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 528.296875,
+          "width": 1009,
+          "height": 371.6875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 55.484375,
+          "y": -3822.890625,
+          "width": 395.125,
+          "height": 204,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "100px",
+          "weight": "600",
+          "lineHeight": "102px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 55.484375,
+          "y": -3593.890625,
+          "width": 395.125,
+          "height": 54.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "lineHeight": "27.2px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 737.265625,
+          "y": -3414.5,
+          "width": 66.171875,
+          "height": 49.5,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "700",
+          "lineHeight": "16.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 55.484375,
+          "y": -3365,
+          "width": 898.03125,
+          "height": 49,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 512.296875,
+          "y": -2711.484375,
+          "width": 365,
+          "height": 76.5,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "lineHeight": "25.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 549.90625,
+          "y": -1898.578125,
+          "width": 320,
+          "height": 71.390625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 445.375,
+          "y": -1285.643798828125,
+          "width": 118.21875,
+          "height": 24,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 328.859375,
+          "y": -1017.6439208984375,
+          "width": 351.265625,
+          "height": 47.59375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 70.625,
+          "y": -1467.34375,
+          "width": 186,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 795.4526977539062,
+          "y": -756.615478515625,
+          "width": 155.3446044921875,
+          "height": 64.54345703125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 479.09375,
+          "y": -392.75,
+          "width": 430,
+          "height": 71.390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 70.625,
+          "y": 856.296875,
+          "width": 647.46875,
+          "height": 18.6875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 579.5,
+          "y": 766.296875,
+          "width": 358.875,
+          "height": 14,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 738.5625,
+          "y": -2186.34375,
+          "width": 45,
+          "height": 45,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "23px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 724.5157470703125,
+          "y": -3828.439697265625,
+          "width": 78.3372802734375,
+          "height": 60.30029296875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.684334"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 815.2770385742188,
+          "y": -3645.88232421875,
+          "width": 94.12384033203125,
+          "height": 59.146240234375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.908334"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 499.8226318359375,
+          "y": -3578.26611328125,
+          "width": 72.699951171875,
+          "height": 72.699951171875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.854182"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 0,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 50.4375,
+            "y": -3151,
+            "width": 908.125,
+            "height": 112.21875,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 50.4375,
+            "y": -2278.78125,
+            "width": 908.125,
+            "height": 137.4375,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 328.859375,
+            "y": -1285.6439208984375,
+            "width": 351.265625,
+            "height": 406.59375,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 50.4375,
+            "y": -511.859375,
+            "width": 408.65625,
+            "height": 340,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal visible",
+          "rect": {
+            "class": "about-copy reveal visible",
+            "id": "",
+            "x": 479.09375,
+            "y": -532.34375,
+            "width": 499.46875,
+            "height": 380.984375,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.015025071440233581,
+          "sources": [
+            "vibes section",
+            "ticker",
+            "#text",
+            "NAV",
+            "#text"
+          ]
+        },
+        {
+          "value": 0.000018703659411950303,
+          "sources": [
+            "hero-player-controls"
+          ]
+        },
+        {
+          "value": 0.0007575385019026536,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0006861012696108332,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.000775462201272132,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.00036009250082590024,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0005461953529346988,
+          "sources": [
+            "::before"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 14.199999928474426
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 18.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 30.899999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 27.700000047683716
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 112.10000002384186
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 10.600000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 4.600000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 69
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 97.20000004768372
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 24.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 27.600000023841858
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 34.300000071525574
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 37.39999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 41.199999928474426
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 41.5
+        }
+      ],
+      "longTasks": [
+        134
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "overflow": false,
+      "height": 4942,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -3833,
+          "width": 753,
+          "height": 665,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 0,
+          "y": -3103,
+          "width": 753,
+          "height": 882.421875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2210.578125,
+          "width": 753,
+          "height": 844.84375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1393.734375,
+          "width": 753,
+          "height": 860,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 0,
+          "y": -533.734375,
+          "width": 753,
+          "height": 620.984375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": 87.25,
+          "width": 753,
+          "height": 545.953125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 633.203125,
+          "width": 753,
+          "height": 390.375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 41.40625,
+          "y": -3674.890625,
+          "width": 294.875,
+          "height": 204,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "100px",
+          "weight": "600",
+          "lineHeight": "102px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 41.40625,
+          "y": -3445.890625,
+          "width": 294.875,
+          "height": 54.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "17px",
+          "weight": "400",
+          "lineHeight": "27.2px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 550.203125,
+          "y": -3266.5,
+          "width": 66.171875,
+          "height": 49.5,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "700",
+          "lineHeight": "16.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 41.40625,
+          "y": -3217,
+          "width": 670.1875,
+          "height": 49,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 382.3125,
+          "y": -2573.28125,
+          "width": 333.03125,
+          "height": 76.5,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "15px",
+          "weight": "400",
+          "lineHeight": "25.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 410.375,
+          "y": -1783.96875,
+          "width": 304.96875,
+          "height": 71.390625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 317.375,
+          "y": -1167.034912109375,
+          "width": 118.21875,
+          "height": 24,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 200.859375,
+          "y": -899.034912109375,
+          "width": 351.265625,
+          "height": 47.59375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 52.703125,
+          "y": -1348.734375,
+          "width": 186,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 554.8120727539062,
+          "y": -638.006103515625,
+          "width": 155.3446044921875,
+          "height": 64.54345703125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 362.609375,
+          "y": -274.140625,
+          "width": 372.734375,
+          "height": 71.390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 52.703125,
+          "y": 961.203125,
+          "width": 521.25,
+          "height": 37.375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 451.5,
+          "y": 871.203125,
+          "width": 248.796875,
+          "height": 14,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 495.359375,
+          "y": -2067.734375,
+          "width": 45,
+          "height": 45,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "23px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 549.4864501953125,
+          "y": -3671.955810546875,
+          "width": 77.6187744140625,
+          "height": 60.4404296875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.680217"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 639.8077392578125,
+          "y": -3487.3408203125,
+          "width": 93.784423828125,
+          "height": 58.376953125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.905371"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 402.4734191894531,
+          "y": -3441.026611328125,
+          "width": 72.39459228515625,
+          "height": 72.39453125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.858756"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 0,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 37.640625,
+            "y": -3003,
+            "width": 677.71875,
+            "height": 102.421875,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 37.640625,
+            "y": -2140.578125,
+            "width": 677.71875,
+            "height": 117.84375,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 200.859375,
+            "y": -1167.034912109375,
+            "width": 351.265625,
+            "height": 406.59375,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 37.640625,
+            "y": -393.25,
+            "width": 304.96875,
+            "height": 340,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal visible",
+          "rect": {
+            "class": "about-copy reveal visible",
+            "id": "",
+            "x": 362.609375,
+            "y": -413.734375,
+            "width": 372.734375,
+            "height": 380.984375,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.019042893749467563,
+          "sources": [
+            "vibes section",
+            "ticker",
+            "NAV",
+            "#text",
+            "#text"
+          ]
+        },
+        {
+          "value": 0.00000802644220481356,
+          "sources": [
+            "BUTTON"
+          ]
+        },
+        {
+          "value": 0.00024318695068359375,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0004944440378135894,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0004416917899690301,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.000400543212890625,
+          "sources": [
+            "::before"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 12.399999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 17
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 25.700000047683716
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 25.199999928474426
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 113.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 68.60000002384186
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 27.300000071525574
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 7.699999928474426
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 8.300000071525574
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 21.399999976158142
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 17
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 17.200000047683716
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 13.099999904632568
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 13.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 20.200000047683716
+        }
+      ],
+      "longTasks": [
+        188
+      ]
+    },
+    {
+      "viewport": [
+        320,
+        900
+      ],
+      "overflow": false,
+      "height": 5038,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -4063,
+          "width": 320,
+          "height": 766.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 0,
+          "y": -3245.625,
+          "width": 320,
+          "height": 829.3125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2406.3125,
+          "width": 320,
+          "height": 966.453125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1459.859375,
+          "width": 320,
+          "height": 740,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 0,
+          "y": -719.859375,
+          "width": 320,
+          "height": 814.4375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": 94.578125,
+          "width": 320,
+          "height": 344.71875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 439.296875,
+          "width": 320,
+          "height": 461.03125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 19.1875,
+          "y": -3978,
+          "width": 281.625,
+          "height": 133,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "70px",
+          "weight": "600",
+          "lineHeight": "66.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 19.1875,
+          "y": -3829,
+          "width": 281.625,
+          "height": 43.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "21.7px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 19.1875,
+          "y": -3394.625,
+          "width": 132.578125,
+          "height": 30,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "15px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 19.1875,
+          "y": -3345.625,
+          "width": 281.625,
+          "height": 49,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "9px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 19.1875,
+          "y": -2921.875,
+          "width": 281.625,
+          "height": 89.5625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "22.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 19.1875,
+          "y": -1718.140625,
+          "width": 281.625,
+          "height": 69.28125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.1px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 114.015625,
+          "y": -1292.4375,
+          "width": 91.953125,
+          "height": 18,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 39.953125,
+          "y": -1116.0625,
+          "width": 240.078125,
+          "height": 40.78125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "20.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 19.1875,
+          "y": -1429.859375,
+          "width": 162.59375,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 19.1875,
+          "y": -245.609375,
+          "width": 281.625,
+          "height": 95.1875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 19.1875,
+          "y": 781.671875,
+          "width": 281.625,
+          "height": 56.0625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 170,
+          "y": 671.671875,
+          "width": 130.8125,
+          "height": 28,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 167.875,
+          "y": -2220.6875,
+          "width": 44,
+          "height": 44,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "20px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 207.46607971191406,
+          "y": -3639.02734375,
+          "width": 58.03117370605469,
+          "height": 37.77099609375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.748238"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.953755"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 38.83783721923828,
+          "y": -3563.48193359375,
+          "width": 49.40382385253906,
+          "height": 49.40380859375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.780971"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 0,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 19.1875,
+            "y": -3197.625,
+            "width": 281.625,
+            "height": 84.6875,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 19.1875,
+            "y": -2351.3125,
+            "width": 281.625,
+            "height": 180.65625,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 39.953125,
+            "y": -1294.4375,
+            "width": 240.078125,
+            "height": 304.15625,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 19.1875,
+            "y": -654.859375,
+            "width": 281.625,
+            "height": 251,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal visible",
+          "rect": {
+            "class": "about-copy reveal visible",
+            "id": "",
+            "x": 19.1875,
+            "y": -368.859375,
+            "width": 281.625,
+            "height": 398.4375,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.0002917100694444445,
+          "sources": [
+            "hero-player-controls"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 133.69999992847443
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 533.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 615.1000000238419
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 612.6000000238419
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 334.7000000476837
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 172.79999995231628
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 110.30000007152557
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 216.30000007152557
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 229
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 249.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 335.8000000715256
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 153.10000002384186
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 178.19999992847443
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 352.60000002384186
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 369.89999997615814
+        }
+      ],
+      "longTasks": [
+        99,
+        92,
+        153
+      ]
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "overflow": false,
+      "height": 4894,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -4152,
+          "width": 375,
+          "height": 756.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 0,
+          "y": -3344.625,
+          "width": 375,
+          "height": 807.171875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2527.453125,
+          "width": 375,
+          "height": 931.296875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1616.15625,
+          "width": 375,
+          "height": 740,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 0,
+          "y": -876.15625,
+          "width": 375,
+          "height": 780.265625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": -95.890625,
+          "width": 375,
+          "height": 344.71875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 248.828125,
+          "width": 375,
+          "height": 418.65625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 22.5,
+          "y": -4067,
+          "width": 330,
+          "height": 133,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "70px",
+          "weight": "600",
+          "lineHeight": "66.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 22.5,
+          "y": -3918,
+          "width": 330,
+          "height": 43.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "21.7px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 22.5,
+          "y": -3476.125,
+          "width": 143.921875,
+          "height": 15,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "15px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 22.5,
+          "y": -3434.625,
+          "width": 330,
+          "height": 39,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "9px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 22.5,
+          "y": -3020.625,
+          "width": 330,
+          "height": 67.171875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "22.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 22.5,
+          "y": -1851.34375,
+          "width": 330,
+          "height": 46.1875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.1px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 141.515625,
+          "y": -1448.734375,
+          "width": 91.953125,
+          "height": 18,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 67.453125,
+          "y": -1272.359375,
+          "width": 240.078125,
+          "height": 40.78125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "20.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 22.5,
+          "y": -1586.15625,
+          "width": 162.59375,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 22.5,
+          "y": -395.78125,
+          "width": 330,
+          "height": 71.390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 22.5,
+          "y": 548.828125,
+          "width": 330,
+          "height": 56.0625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 197.5,
+          "y": 438.828125,
+          "width": 155,
+          "height": 28,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 211.5625,
+          "y": -2347.859375,
+          "width": 44,
+          "height": 44,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "20px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 264.28363037109375,
+          "y": -3706.1748046875,
+          "width": 62.4920654296875,
+          "height": 33.683837890625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.803978"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.995972"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 57.89533996582031,
+          "y": -3697.3662109375,
+          "width": 45.73243713378906,
+          "height": 45.732421875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.691402"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 0,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 22.5,
+            "y": -3296.625,
+            "width": 330,
+            "height": 84.6875,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 22.5,
+            "y": -2472.453125,
+            "width": 330,
+            "height": 168.59375,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 67.453125,
+            "y": -1450.734375,
+            "width": 240.078125,
+            "height": 304.15625,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 22.5,
+            "y": -811.15625,
+            "width": 330,
+            "height": 251,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal visible",
+          "rect": {
+            "class": "about-copy reveal visible",
+            "id": "",
+            "x": 22.5,
+            "y": -525.15625,
+            "width": 330,
+            "height": 364.265625,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.0005259738946119144,
+          "sources": [
+            "::before"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 109.39999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 458.89999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 488.60000002384186
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 473.10000002384186
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 511.39999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 1248.3000000715256
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 660.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 973.3999999761581
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 1254.2999999523163
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 1344.9000000953674
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 1474.6000000238419
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 338.40000009536743
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 402.10000002384186
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 412.40000009536743
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 603.3999999761581
+        }
+      ],
+      "longTasks": [
+        54,
+        178
+      ]
+    },
+    {
+      "viewport": [
+        430,
+        900
+      ],
+      "overflow": false,
+      "height": 4908,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -3933,
+          "width": 430,
+          "height": 770.4375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 0,
+          "y": -3111.5625,
+          "width": 430,
+          "height": 820.453125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2281.109375,
+          "width": 430,
+          "height": 933.015625,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1368.09375,
+          "width": 430,
+          "height": 740,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 0,
+          "y": -628.09375,
+          "width": 430,
+          "height": 780.265625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": 152.171875,
+          "width": 430,
+          "height": 347.46875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 499.640625,
+          "width": 430,
+          "height": 399.96875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 25.796875,
+          "y": -3848,
+          "width": 378.40625,
+          "height": 147.0625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "77.4px",
+          "weight": "600",
+          "lineHeight": "73.53px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 25.796875,
+          "y": -3684.9375,
+          "width": 378.40625,
+          "height": 43.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "21.7px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 25.796875,
+          "y": -3243.0625,
+          "width": 95.140625,
+          "height": 15,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "15px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 25.796875,
+          "y": -3201.5625,
+          "width": 378.40625,
+          "height": 39,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "9px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 25.796875,
+          "y": -2774.28125,
+          "width": 378.40625,
+          "height": 67.171875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "22.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 25.796875,
+          "y": -1603.28125,
+          "width": 378.40625,
+          "height": 46.1875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.1px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 169.015625,
+          "y": -1205.265625,
+          "width": 91.953125,
+          "height": 18,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 94.953125,
+          "y": -1019.703125,
+          "width": 240.078125,
+          "height": 40.78125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "20.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 25.796875,
+          "y": -1338.09375,
+          "width": 162.59375,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 25.796875,
+          "y": -147.71875,
+          "width": 378.40625,
+          "height": 71.390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 25.796875,
+          "y": 799.640625,
+          "width": 378.40625,
+          "height": 37.375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 225,
+          "y": 689.640625,
+          "width": 179.203125,
+          "height": 14,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 263.265625,
+          "y": -2099.796875,
+          "width": 44,
+          "height": 44,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "20px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 296.5415954589844,
+          "y": -3502.690673828125,
+          "width": 58.78167724609375,
+          "height": 37.275634765625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.756606"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.959867"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 59.921817779541016,
+          "y": -3413.075439453125,
+          "width": 49.22805404663086,
+          "height": 49.22802734375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.770346"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 1,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 25.796875,
+            "y": -3063.5625,
+            "width": 378.40625,
+            "height": 88.46875,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 25.796875,
+            "y": -2226.109375,
+            "width": 378.40625,
+            "height": 170.3125,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 94.953125,
+            "y": -1207.265625,
+            "width": 240.078125,
+            "height": 313.34375,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 40,
+            "y": -563.09375,
+            "width": 350,
+            "height": 251,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal visible",
+          "rect": {
+            "class": "about-copy reveal visible",
+            "id": "",
+            "x": 25.796875,
+            "y": -277.09375,
+            "width": 378.40625,
+            "height": 364.265625,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.00021708656330749355,
+          "sources": [
+            "hero-player-controls"
+          ]
+        },
+        {
+          "value": 0.0003037037037037037,
+          "sources": [
+            "::before"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 74.80000007152557
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 349.7999999523163
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 80
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 162.5
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 221.69999992847443
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 400.59999990463257
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 480.90000009536743
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini7.webp",
+          "bytes": 88638,
+          "transfer": 88938,
+          "duration": 157.69999992847443
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 136.30000007152557
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 153.5
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 154.29999995231628
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 161
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 138.80000007152557
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 262
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 274
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 299
+        }
+      ],
+      "longTasks": [
+        127,
+        64
+      ]
+    },
+    {
+      "viewport": [
+        667,
+        375
+      ],
+      "overflow": false,
+      "height": 4936,
+      "sections": [
+        {
+          "class": "hero",
+          "id": "inicio",
+          "x": 0,
+          "y": -4386,
+          "width": 667,
+          "height": 794.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "vibes section",
+          "id": "vibes",
+          "x": 0,
+          "y": -3540.625,
+          "width": 667,
+          "height": 803.109375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "classics section",
+          "id": "classicos",
+          "x": 0,
+          "y": -2727.515625,
+          "width": 667,
+          "height": 950.609375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "world",
+          "id": "mundo",
+          "x": 0,
+          "y": -1796.90625,
+          "width": 667,
+          "height": 740,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(235, 52, 119)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "about section",
+          "id": "sobre",
+          "x": 0,
+          "y": -1056.90625,
+          "width": 667,
+          "height": 780.265625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "final-section visible",
+          "id": "final",
+          "x": 0,
+          "y": -276.640625,
+          "width": 667,
+          "height": 351.859375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgb(248, 237, 69)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "class": "",
+          "id": "",
+          "x": 0,
+          "y": 75.21875,
+          "width": 667,
+          "height": 399.96875,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgb(41, 32, 116)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        }
+      ],
+      "selected": [
+        {
+          "selector": ".hero h1",
+          "class": "",
+          "id": "hero-title",
+          "x": 40.015625,
+          "y": -4301,
+          "width": 586.96875,
+          "height": 171,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, \"Trebuchet MS\", sans-serif",
+          "size": "90px",
+          "weight": "600",
+          "lineHeight": "85.5px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-copy p",
+          "class": "",
+          "id": "",
+          "x": 40.015625,
+          "y": -4114,
+          "width": 586.96875,
+          "height": 43.375,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "21.7px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-caption",
+          "class": "hero-caption",
+          "id": "hero-caption",
+          "x": 40.015625,
+          "y": -3672.125,
+          "width": 143.921875,
+          "height": 15,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "15px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-bottom",
+          "class": "hero-bottom",
+          "id": "",
+          "x": 40.015625,
+          "y": -3630.625,
+          "width": 586.96875,
+          "height": 39,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "9px",
+          "weight": "700",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".vibe-content p",
+          "class": "",
+          "id": "vibe-description",
+          "x": 40.015625,
+          "y": -3198.296875,
+          "width": 586.96875,
+          "height": 44.78125,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "22.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".classic-copy p",
+          "class": "",
+          "id": "classic-description",
+          "x": 40.015625,
+          "y": -2009,
+          "width": 586.96875,
+          "height": 23.09375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.1px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text>span",
+          "class": "",
+          "id": "",
+          "x": 287.515625,
+          "y": -1665.1875,
+          "width": 91.953125,
+          "height": 18,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-text p",
+          "class": "",
+          "id": "",
+          "x": 166.640625,
+          "y": -1417.40625,
+          "width": 333.703125,
+          "height": 40.78125,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lineHeight": "20.4px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-label",
+          "class": "eyebrow world-label",
+          "id": "",
+          "x": 40.015625,
+          "y": -1766.90625,
+          "width": 162.59375,
+          "height": 16,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "10px",
+          "weight": "700",
+          "lineHeight": "16px",
+          "opacity": "1"
+        },
+        {
+          "selector": ".world-note",
+          "class": "world-note",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "Fredoka, sans-serif",
+          "size": "18px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".about-copy>p",
+          "class": "",
+          "id": "",
+          "x": 118.5,
+          "y": -576.53125,
+          "width": 430,
+          "height": 71.390625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "14px",
+          "weight": "400",
+          "lineHeight": "23.8px",
+          "opacity": "0"
+        },
+        {
+          "selector": ".footer-bottom p",
+          "class": "",
+          "id": "",
+          "x": 40.015625,
+          "y": 375.21875,
+          "width": 586.96875,
+          "height": 37.375,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "18.7px",
+          "opacity": "0.75"
+        },
+        {
+          "selector": ".social-placeholders small",
+          "class": "",
+          "id": "",
+          "x": 343.5,
+          "y": 265.21875,
+          "width": 283.484375,
+          "height": 14,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "11px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.7"
+        },
+        {
+          "selector": ".slider-controls button",
+          "class": "",
+          "id": "classic-prev",
+          "x": 486.046875,
+          "y": -2505.515625,
+          "width": 44,
+          "height": 44,
+          "color": "rgb(251, 246, 233)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "20px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "1"
+        },
+        {
+          "selector": ".hero-art .w1",
+          "class": "candy worm w1 satellite has-h01-asset",
+          "id": "",
+          "x": 349.7869873046875,
+          "y": -3976.981201171875,
+          "width": 45.48236083984375,
+          "height": 40.527587890625,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.632772"
+        },
+        {
+          "selector": ".hero-art .w2",
+          "class": "candy worm w2 satellite",
+          "id": "",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.866558"
+        },
+        {
+          "selector": ".hero-art .r1",
+          "class": "candy ring r1 satellite",
+          "id": "",
+          "x": 166.23147583007812,
+          "y": -3752.21826171875,
+          "width": 45.199371337890625,
+          "height": 45.19921875,
+          "color": "rgb(41, 32, 116)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "size": "16px",
+          "weight": "400",
+          "lineHeight": "normal",
+          "opacity": "0.917583"
+        }
+      ],
+      "smallButtons": [],
+      "broken": [],
+      "fonts": {
+        "fredoka": true,
+        "dmSans": true,
+        "status": "loaded"
+      },
+      "hero": {
+        "index": 0,
+        "source": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "paused": true
+      },
+      "reveals": [
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 40.015625,
+            "y": -3492.625,
+            "width": 586.96875,
+            "height": 92.859375,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "section-heading reveal visible",
+          "rect": {
+            "class": "section-heading reveal visible",
+            "id": "",
+            "x": 40.015625,
+            "y": -2672.515625,
+            "width": 586.96875,
+            "height": 211,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "world-text reveal depth-layer visible",
+          "rect": {
+            "class": "world-text reveal depth-layer visible",
+            "id": "",
+            "x": 166.640625,
+            "y": -1667.1875,
+            "width": 333.703125,
+            "height": 375.5625,
+            "color": "rgb(251, 246, 233)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-art reveal visible",
+          "rect": {
+            "class": "about-art reveal visible",
+            "id": "",
+            "x": 158.5,
+            "y": -991.90625,
+            "width": 350,
+            "height": 251,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        },
+        {
+          "class": "about-copy reveal",
+          "rect": {
+            "class": "about-copy reveal",
+            "id": "",
+            "x": 118.5,
+            "y": -705.90625,
+            "width": 430,
+            "height": 364.265625,
+            "color": "rgb(41, 32, 116)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "font": "\"DM Sans\", Arial, sans-serif",
+            "size": "16px",
+            "weight": "400",
+            "lineHeight": "normal",
+            "opacity": "1"
+          }
+        }
+      ],
+      "layoutShifts": [
+        {
+          "value": 0.001846644893445331,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0010674662668665666,
+          "sources": [
+            "::before"
+          ]
+        },
+        {
+          "value": 0.0011754122938530732,
+          "sources": [
+            "::before"
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini6.webp",
+          "bytes": 109150,
+          "transfer": 109450,
+          "duration": 73.69999992847443
+        },
+        {
+          "url": "http://127.0.0.1:8004/css/style.css",
+          "bytes": 50362,
+          "transfer": 50662,
+          "duration": 88.19999992847443
+        },
+        {
+          "url": "http://127.0.0.1:8004/js/script.js",
+          "bytes": 30923,
+          "transfer": 31223,
+          "duration": 282.90000009536743
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/iconfini.webp",
+          "bytes": 2904,
+          "transfer": 3204,
+          "duration": 218.89999997615814
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+          "bytes": 617,
+          "transfer": 917,
+          "duration": 166.89999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "bytes": 80708,
+          "transfer": 81008,
+          "duration": 404.89999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+          "bytes": 8824,
+          "transfer": 9124,
+          "duration": 77
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini3.webp",
+          "bytes": 88756,
+          "transfer": 89056,
+          "duration": 246.89999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini10.webp",
+          "bytes": 82530,
+          "transfer": 82830,
+          "duration": 255.29999995231628
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini12.webp",
+          "bytes": 92712,
+          "transfer": 93012,
+          "duration": 255.39999997615814
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/mascotefini.webp",
+          "bytes": 8132,
+          "transfer": 8432,
+          "duration": 390
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini2.webp",
+          "bytes": 93390,
+          "transfer": 93690,
+          "duration": 114.20000004768372
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini4.webp",
+          "bytes": 90726,
+          "transfer": 91026,
+          "duration": 496.7999999523163
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini8.webp",
+          "bytes": 114444,
+          "transfer": 114744,
+          "duration": 509
+        },
+        {
+          "url": "http://127.0.0.1:8004/assets/images/balafini13.webp",
+          "bytes": 83162,
+          "transfer": 83462,
+          "duration": 509.2999999523163
+        }
+      ],
+      "longTasks": [
+        55,
+        155
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "viewport": 1440,
+      "vibes": [
+        {
+          "key": "azedo",
+          "panelHeight": 470,
+          "image": {
+            "width": 250,
+            "height": 365,
+            "source": "http://127.0.0.1:8004/assets/images/balafini6.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "doce",
+          "panelHeight": 489,
+          "image": {
+            "width": 250,
+            "height": 365,
+            "source": "http://127.0.0.1:8004/assets/images/balafini10.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "tubes",
+          "panelHeight": 470,
+          "image": {
+            "width": 400,
+            "height": 365,
+            "source": "http://127.0.0.1:8004/assets/images/caixafini7.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "classicos",
+          "panelHeight": 489,
+          "image": {
+            "width": 250,
+            "height": 365,
+            "source": "http://127.0.0.1:8004/assets/images/balafini7.webp"
+          },
+          "overflow": false
+        }
+      ],
+      "classics": [
+        {
+          "index": 0,
+          "source": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "overflow": false
+        },
+        {
+          "index": 1,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini2.webp",
+          "overflow": false
+        },
+        {
+          "index": 2,
+          "source": "http://127.0.0.1:8004/assets/images/balafini7.webp",
+          "overflow": false
+        },
+        {
+          "index": 3,
+          "source": "http://127.0.0.1:8004/assets/images/balafini1.webp",
+          "overflow": false
+        },
+        {
+          "index": 4,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini5.webp",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "viewport": 768,
+      "vibes": [
+        {
+          "key": "azedo",
+          "panelHeight": 470,
+          "image": {
+            "width": 220,
+            "height": 345,
+            "source": "http://127.0.0.1:8004/assets/images/balafini6.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "doce",
+          "panelHeight": 470,
+          "image": {
+            "width": 220,
+            "height": 345,
+            "source": "http://127.0.0.1:8004/assets/images/balafini10.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "tubes",
+          "panelHeight": 470,
+          "image": {
+            "width": 272.2050476074219,
+            "height": 345.3801574707031,
+            "source": "http://127.0.0.1:8004/assets/images/caixafini7.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "classicos",
+          "panelHeight": 470,
+          "image": {
+            "width": 220,
+            "height": 345,
+            "source": "http://127.0.0.1:8004/assets/images/balafini7.webp"
+          },
+          "overflow": false
+        }
+      ],
+      "classics": [
+        {
+          "index": 0,
+          "source": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "overflow": false
+        },
+        {
+          "index": 1,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini2.webp",
+          "overflow": false
+        },
+        {
+          "index": 2,
+          "source": "http://127.0.0.1:8004/assets/images/balafini7.webp",
+          "overflow": false
+        },
+        {
+          "index": 3,
+          "source": "http://127.0.0.1:8004/assets/images/balafini1.webp",
+          "overflow": false
+        },
+        {
+          "index": 4,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini5.webp",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "viewport": 375,
+      "vibes": [
+        {
+          "key": "azedo",
+          "panelHeight": 545,
+          "image": {
+            "width": 156,
+            "height": 224,
+            "source": "http://127.0.0.1:8004/assets/images/balafini6.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "doce",
+          "panelHeight": 578,
+          "image": {
+            "width": 156,
+            "height": 224,
+            "source": "http://127.0.0.1:8004/assets/images/balafini10.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "tubes",
+          "panelHeight": 545,
+          "image": {
+            "width": 298,
+            "height": 224,
+            "source": "http://127.0.0.1:8004/assets/images/caixafini7.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "classicos",
+          "panelHeight": 545,
+          "image": {
+            "width": 156,
+            "height": 224,
+            "source": "http://127.0.0.1:8004/assets/images/balafini7.webp"
+          },
+          "overflow": false
+        }
+      ],
+      "classics": [
+        {
+          "index": 0,
+          "source": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "overflow": false
+        },
+        {
+          "index": 1,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini2.webp",
+          "overflow": false
+        },
+        {
+          "index": 2,
+          "source": "http://127.0.0.1:8004/assets/images/balafini7.webp",
+          "overflow": false
+        },
+        {
+          "index": 3,
+          "source": "http://127.0.0.1:8004/assets/images/balafini1.webp",
+          "overflow": false
+        },
+        {
+          "index": 4,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini5.webp",
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "viewport": 320,
+      "vibes": [
+        {
+          "key": "azedo",
+          "panelHeight": 568,
+          "image": {
+            "width": 156,
+            "height": 224,
+            "source": "http://127.0.0.1:8004/assets/images/balafini6.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "doce",
+          "panelHeight": 577,
+          "image": {
+            "width": 156.40634155273438,
+            "height": 224.58343505859375,
+            "source": "http://127.0.0.1:8004/assets/images/balafini10.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "tubes",
+          "panelHeight": 545,
+          "image": {
+            "width": 249.625,
+            "height": 224,
+            "source": "http://127.0.0.1:8004/assets/images/caixafini7.webp"
+          },
+          "overflow": false
+        },
+        {
+          "key": "classicos",
+          "panelHeight": 577,
+          "image": {
+            "width": 156.02789306640625,
+            "height": 224.027099609375,
+            "source": "http://127.0.0.1:8004/assets/images/balafini7.webp"
+          },
+          "overflow": false
+        }
+      ],
+      "classics": [
+        {
+          "index": 0,
+          "source": "http://127.0.0.1:8004/assets/images/balafini5.webp",
+          "overflow": false
+        },
+        {
+          "index": 1,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini2.webp",
+          "overflow": false
+        },
+        {
+          "index": 2,
+          "source": "http://127.0.0.1:8004/assets/images/balafini7.webp",
+          "overflow": false
+        },
+        {
+          "index": 3,
+          "source": "http://127.0.0.1:8004/assets/images/balafini1.webp",
+          "overflow": false
+        },
+        {
+          "index": 4,
+          "source": "http://127.0.0.1:8004/assets/images/caixafini5.webp",
+          "overflow": false
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failure": "[object Object]"
+}

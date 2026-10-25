@@ -1,0 +1,418 @@
+[
+  {
+    "version": "p2",
+    "run": 0,
+    "samples": 67,
+    "meanFrameMs": 32.83432835820896,
+    "p95FrameMs": 33.40000000000009,
+    "framesOver50": 1,
+    "longTasks": [
+      62,
+      63,
+      129
+    ],
+    "domContentLoaded": 692.8999999761581,
+    "load": 1106.8999999761581,
+    "shifts": [
+      {
+        "value": 0.0006150810646064173,
+        "sources": [
+          "#text",
+          "#text",
+          "#text"
+        ]
+      },
+      {
+        "value": 0.005313232208200814,
+        "sources": [
+          "ticker",
+          "NAV",
+          "vibes section",
+          "#text",
+          "#text"
+        ]
+      }
+    ],
+    "box": [
+      100,
+      33
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/balafini6.webp",
+        "bytes": 109150,
+        "transfer": 109450
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/css/style.css",
+        "bytes": 49899,
+        "transfer": 50199
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/js/script.js",
+        "bytes": 29395,
+        "transfer": 29695
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/iconfini.webp",
+        "bytes": 2904,
+        "transfer": 3204
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+        "bytes": 617,
+        "transfer": 917
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/balafini5.webp",
+        "bytes": 80708,
+        "transfer": 81008
+      }
+    ],
+    "ready": false
+  },
+  {
+    "version": "p3",
+    "run": 0,
+    "samples": 66,
+    "meanFrameMs": 33.33030303030303,
+    "p95FrameMs": 33.40000000000009,
+    "framesOver50": 1,
+    "longTasks": [
+      168
+    ],
+    "domContentLoaded": 840.3000000715256,
+    "load": 1322.7000000476837,
+    "shifts": [
+      {
+        "value": 0.007461954584316542,
+        "sources": [
+          "ticker",
+          "#text",
+          "NAV",
+          "vibes section",
+          "#text"
+        ]
+      }
+    ],
+    "box": [
+      100,
+      33
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8003/assets/images/balafini6.webp",
+        "bytes": 109150,
+        "transfer": 109450
+      },
+      {
+        "url": "http://127.0.0.1:8003/css/style.css",
+        "bytes": 50362,
+        "transfer": 50662
+      },
+      {
+        "url": "http://127.0.0.1:8003/js/script.js",
+        "bytes": 30744,
+        "transfer": 31044
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/iconfini.webp",
+        "bytes": 2904,
+        "transfer": 3204
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+        "bytes": 617,
+        "transfer": 917
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/balafini5.webp",
+        "bytes": 80708,
+        "transfer": 81008
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "bytes": 8824,
+        "transfer": 9124
+      }
+    ],
+    "ready": true
+  },
+  {
+    "version": "p2",
+    "run": 1,
+    "samples": 68,
+    "meanFrameMs": 32.35294117647059,
+    "p95FrameMs": 33.40000000000009,
+    "framesOver50": 2,
+    "longTasks": [
+      129,
+      60
+    ],
+    "domContentLoaded": 689.2999999523163,
+    "load": 1013.6999999284744,
+    "shifts": [
+      {
+        "value": 0.005313232208200814,
+        "sources": [
+          "ticker",
+          "NAV",
+          "vibes section",
+          "#text",
+          "#text"
+        ]
+      },
+      {
+        "value": 0.0006150810646064173,
+        "sources": [
+          "#text",
+          "#text",
+          "#text"
+        ]
+      }
+    ],
+    "box": [
+      100,
+      33
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/balafini6.webp",
+        "bytes": 109150,
+        "transfer": 109450
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/css/style.css",
+        "bytes": 49899,
+        "transfer": 50199
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/js/script.js",
+        "bytes": 29395,
+        "transfer": 29695
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/iconfini.webp",
+        "bytes": 2904,
+        "transfer": 3204
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+        "bytes": 617,
+        "transfer": 917
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/balafini5.webp",
+        "bytes": 80708,
+        "transfer": 81008
+      }
+    ],
+    "ready": false
+  },
+  {
+    "version": "p3",
+    "run": 1,
+    "samples": 69,
+    "meanFrameMs": 32.12463768115943,
+    "p95FrameMs": 33.400000000000546,
+    "framesOver50": 0,
+    "longTasks": [
+      172
+    ],
+    "domContentLoaded": 1984.6999999284744,
+    "load": 2445.6999999284744,
+    "shifts": [
+      {
+        "value": 0.007461954584316542,
+        "sources": [
+          "ticker",
+          "#text",
+          "NAV",
+          "vibes section",
+          "#text"
+        ]
+      }
+    ],
+    "box": [
+      100,
+      33
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8003/assets/images/balafini6.webp",
+        "bytes": 109150,
+        "transfer": 109450
+      },
+      {
+        "url": "http://127.0.0.1:8003/css/style.css",
+        "bytes": 50362,
+        "transfer": 50662
+      },
+      {
+        "url": "http://127.0.0.1:8003/js/script.js",
+        "bytes": 30744,
+        "transfer": 31044
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/iconfini.webp",
+        "bytes": 2904,
+        "transfer": 3204
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+        "bytes": 617,
+        "transfer": 917
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/balafini5.webp",
+        "bytes": 80708,
+        "transfer": 81008
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "bytes": 8824,
+        "transfer": 9124
+      }
+    ],
+    "ready": true
+  },
+  {
+    "version": "p2",
+    "run": 2,
+    "samples": 68,
+    "meanFrameMs": 32.10588235294118,
+    "p95FrameMs": 33.40000000000009,
+    "framesOver50": 0,
+    "longTasks": [
+      170
+    ],
+    "domContentLoaded": 542.1000000238419,
+    "load": 1005.7000000476837,
+    "shifts": [
+      {
+        "value": 0.007461954584316542,
+        "sources": [
+          "ticker",
+          "#text",
+          "NAV",
+          "vibes section",
+          "#text"
+        ]
+      }
+    ],
+    "box": [
+      100,
+      33
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/balafini6.webp",
+        "bytes": 109150,
+        "transfer": 109450
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/css/style.css",
+        "bytes": 49899,
+        "transfer": 50199
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/js/script.js",
+        "bytes": 29395,
+        "transfer": 29695
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/iconfini.webp",
+        "bytes": 2904,
+        "transfer": 3204
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+        "bytes": 617,
+        "transfer": 917
+      },
+      {
+        "url": "http://127.0.0.1:8003/auditoria/p3-d-h01/backup-p2/assets/images/balafini5.webp",
+        "bytes": 80708,
+        "transfer": 81008
+      }
+    ],
+    "ready": false
+  },
+  {
+    "version": "p3",
+    "run": 2,
+    "samples": 68,
+    "meanFrameMs": 32.10588235294117,
+    "p95FrameMs": 50,
+    "framesOver50": 0,
+    "longTasks": [
+      120,
+      65,
+      129
+    ],
+    "domContentLoaded": 893,
+    "load": 1339.3999999761581,
+    "shifts": [
+      {
+        "value": 0.0006150810646064173,
+        "sources": [
+          "#text",
+          "#text",
+          "#text"
+        ]
+      },
+      {
+        "value": 0.005313232208200814,
+        "sources": [
+          "ticker",
+          "NAV",
+          "vibes section",
+          "#text",
+          "#text"
+        ]
+      }
+    ],
+    "box": [
+      100,
+      33
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:8003/assets/images/balafini6.webp",
+        "bytes": 109150,
+        "transfer": 109450
+      },
+      {
+        "url": "http://127.0.0.1:8003/css/style.css",
+        "bytes": 50362,
+        "transfer": 50662
+      },
+      {
+        "url": "http://127.0.0.1:8003/js/script.js",
+        "bytes": 30744,
+        "transfer": 31044
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/iconfini.webp",
+        "bytes": 2904,
+        "transfer": 3204
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap",
+        "bytes": 617,
+        "transfer": 917
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/balafini5.webp",
+        "bytes": 80708,
+        "transfer": 81008
+      },
+      {
+        "url": "http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+        "bytes": 8824,
+        "transfer": 9124
+      }
+    ],
+    "ready": true
+  }
+]

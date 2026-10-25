@@ -1,6 +1,6 @@
 # Plano P3 — Materialidade e novos assets Fini
 
-Data: 24/10/2026.
+Data da revisão: 25/10/2026.
 
 Estado: **planejamento técnico e visual; implementação e produção de imagens ainda não autorizadas.**
 
@@ -10,7 +10,7 @@ Foram lidos integralmente `AUDITORIA-VISUAL-FINI.md`, incluindo a seção 22, `R
 
 A referência válida é o estado P2 aprovado, que incorpora a composição P1. As limitações históricas de acesso ao navegador da auditoria inicial não substituem os resultados posteriores. Da mesma forma, os resultados de P2 não provam a qualidade ou o desempenho de assets que ainda não existem.
 
-Nesta etapa foi criado somente este documento. Não foram alterados arquivos do site, geradas imagens, substituídos doces, instaladas dependências ou executados commit/deploy. Não foi realizada uma nova sessão de testes visuais no navegador. A imagem local `assets/images/balafini6.webp` foi consultada como referência de embalagem e aparência geral das Minhocas Azedinhas, não como uma fotografia macro de produção.
+Este plano já existia no workspace e foi revisado nesta etapa contra os três documentos e o código atual. Somente este documento foi atualizado. Não foram alterados arquivos do site, geradas imagens, substituídos doces, instaladas dependências ou executados commit/deploy. Não foi realizada uma nova sessão de testes visuais no navegador. A imagem local `assets/images/balafini6.webp` foi consultada como referência de embalagem e aparência geral das Minhocas Azedinhas, não como uma fotografia macro de produção. A aprovação de P2 informada nesta solicitação passa a ser a referência; o estado “aguardando revisão” do relatório P2 é histórico e seu arquivo permanece preservado.
 
 ## 2. Decisão de direção de arte
 
@@ -182,9 +182,9 @@ Sem referência aprovada, não produzir imagem gerada a partir de descrição ge
 O dimensionamento deve considerar o lado visual máximo × escala de P2 × DPR. Exemplos de referência:
 
 - H01: 100 px × 1,16 × DPR 3 ≈ 348 pixels físicos; o derivado de 512 px oferece margem.
-- M02: 145 px × até 1,018 × DPR 3 ≈ 443 pixels físicos; reutilização de 512 px é suficiente como ponto inicial.
+- M02: 145 px × DPR 3 = 435 pixels físicos; reutilização de 512 px é suficiente como ponto inicial. O aumento de até 1,018 em Mundo Fini é exclusivo de `.world-pack`; os doces mantêm escala 1.
 - H03: 63 px × 1,16 × DPR 3 ≈ 219 pixels físicos; o derivado de 384 px cobre essa condição.
-- M01: 95 px × até 1,018 × DPR 3 ≈ 290 pixels físicos; o derivado de 384 px também cobre esse uso.
+- M01: 95 px × DPR 3 = 285 pixels físicos; o derivado de 384 px também cobre esse uso.
 
 Esses cálculos são recomendações, não medições de qualidade dos futuros arquivos. Margem transparente, rotação e ocupação útil devem ser consideradas na aprovação final.
 
@@ -275,6 +275,8 @@ Definir a filha com dimensões contidas no wrapper, `object-fit:contain`, propor
 
 Os seletores de asset precisam vencer a especificidade das regras de `.hero-art .satellite.r1`, `.world-ring` e demais ajustes por breakpoint. Uma remoção genérica de borda em `.ring` afetaria a ponte gráfica, o fallback e componentes que não foram aprovados para substituição.
 
+O reset localizado deve abranger `background`, `border`, `box-shadow`, `outline` e `outline-offset`, preservando largura/altura externas com `box-sizing:border-box`. Nas argolas, remover a borda amplia a área interna disponível: dimensionar a imagem pela caixa externa preservada, sem somar novamente os antigos 18/12 px de borda. Rever o `filter:drop-shadow` herdado de `.candy` e aplicá-lo uma única vez ao alfa da silhueta, com intensidade subordinada à embalagem. Nenhum `transform` novo deve substituir o transform de `.satellite` ou `.depth-layer`.
+
 Manter as dimensões externas e o centro óptico estáveis. O furo da argola passa a vir do alfa do arquivo, não da borda CSS. Evitar `overflow:hidden` ou máscaras no wrapper que cortem grãos periféricos ou sombras aprovadas.
 
 ### 10.4. Carregamento e responsividade
@@ -289,6 +291,10 @@ Manter as dimensões externas e o centro óptico estáveis. O furo da argola pas
 - Evitar blur, hue-rotate, filtros múltiplos ou recoloração para simular um produto diferente.
 
 Um sprite 2D pode manter profundidade perceptiva por escala, posição e oclusão, mas não revela novas faces reais. Só avaliar outras vistas depois de provar uma limitação visível do asset único.
+
+Para o lote inicial, preferir identificadores `data-candy-asset` no HTML e criação da imagem pelo carregador existente a ser ampliado, sem `src` antecipado em instâncias ocultas. Associar cada solicitação a um identificador de geração; se o breakpoint mudar enquanto a imagem decodifica, reaproveitar o cache, mas só anexar a filha se a instância ainda estiver elegível. Usar `srcset`/`sizes` depois dessa elegibilidade, com teto de tamanho baseado na maior escala orbital e nas dimensões do wrapper. Resolver a escolha de recurso no carregamento/resize, nunca dentro de `drawOrbits()`.
+
+Manter `--orbit-opacity` como profundidade gráfica, sem embutir esse fade no arquivo. Ela multiplica o alfa do bitmap; conferir especialmente a passagem traseira em 0,62 para que o doce não desapareça. Se o resultado exigir mudar opacidade, amplitude ou camada de P2, apresentar esse ajuste para revisão separadamente. A substituição inicial deve funcionar com os valores aprovados.
 
 ## 11. Alterações futuras por arquivo
 
@@ -394,6 +400,22 @@ Critérios:
 - Conferir ausência de solicitações duplicadas desnecessárias ao reutilizar um asset em outra seção.
 - Medir frames longos/custo de composição em aparelho modesto, sem prometer 60 fps antecipadamente.
 - Confirmar que somente H01/H02/H03 liberados receberam novos bitmaps; grafismos e assets aprovados permanecem preservados.
+
+### 15.5. Condições objetivas de aceite e comparação
+
+Registrar a referência P2 e a candidata P3 no mesmo navegador, viewport, DPR, estado de cache e produto, com as órbitas comparadas no mesmo `orbitTime`. Comparar repouso, escala mínima/máxima, cruzamento de camada e os 16% de descanso; não julgar diferenças a partir de capturas em fases aleatórias. Percorrer também as cinco embalagens do hero, incluindo o display Tubes, pois a oclusão muda com sua silhueta.
+
+| Critério | Condição de aprovação proposta |
+|---|---|
+| Integridade da animação | Mesmos nós animados, períodos 12/17/21 s, fases e trilhas; nenhuma reinicialização do relógio por carregamento ou resize |
+| Estabilidade | Caixas externas e geometria medidas antes/depois iguais; nenhuma contribuição nova de layout atribuível aos doces |
+| Leitura e recorte | Zero nova sobreposição prejudicial a texto/controles; zero halo/fundo residual visível no tamanho de uso e na inspeção a 100% do derivado |
+| Responsividade | H02/M02 sem solicitação inicial em mobile; ao cruzar 767/768 px, ausência de duplicação de imagens, salto de centro ou quebra do fallback |
+| Rede | URLs válidos, um recurso por instância elegível, reutilização por cache; metas de bytes da seção 8 atendidas ou exceção documentada para revisão |
+| Desempenho | Comparar ao menos três execuções equivalentes por versão; investigar regressão repetida superior a 10% no tempo de carregamento principal ou custo de frames antes do aceite, sem tratar esse limiar como garantia de fluidez |
+| Robustez | Pausar/retomar e alterar movimento reduzido durante decode e troca; nenhuma imagem vazia, duplicada ou animação reativada indevidamente |
+
+Além do Chrome usado em P2, incluir Safari/iOS e Chrome/Android quando disponíveis. Se só houver emulação, registrar essa limitação e manter a validação em aparelho físico pendente; não declarar cobertura realizada. As medições futuras devem distinguir cache frio/quente e rede/CPU limitadas, sem transformar resultados laboratoriais em Core Web Vitals de usuários reais.
 
 ## 16. Evidências necessárias para aprovação da implementação
 

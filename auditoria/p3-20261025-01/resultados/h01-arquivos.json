@@ -1,0 +1,46 @@
+{
+  "master": {
+    "path": "design/p3-candies/masters/minhoca-a-view01-v01.png",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1682465,
+    "sha256": "5a6dabf6c6883aa839e0486529724e29ed1521a4003030567ed03a06777994ea",
+    "mode": "RGBA",
+    "alpha_zero_pixels": 1014370,
+    "alpha_partial_pixels": 557812,
+    "alpha_opaque_pixels": 346,
+    "bbox_alpha_gt_0": [
+      0,
+      0,
+      2153,
+      708
+    ],
+    "bbox_alpha_gt_16": [
+      71,
+      198,
+      2101,
+      543
+    ]
+  },
+  "files": [
+    {
+      "path": "assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v01-256.webp",
+      "width": 256,
+      "height": 85,
+      "bytes": 8734,
+      "sha256": "6b1dc46ad0f82270542e4eac65e0b66708784af6ed49911436eae0fffadf963b"
+    },
+    {
+      "path": "assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v01-512.webp",
+      "width": 512,
+      "height": 171,
+      "bytes": 28752,
+      "sha256": "16b4360fd41a9b4d40216e8b942eab8989a4cb8ac6bdbd47b8ceb599d4977185"
+    }
+  ],
+  "proofs": [
+    "design/p3-candies/provas/fundos-creme-azul-rosa/h01-v01-creme.png",
+    "design/p3-candies/provas/fundos-creme-azul-rosa/h01-v01-azul.png",
+    "design/p3-candies/provas/fundos-creme-azul-rosa/h01-v01-rosa.png"
+  ]
+}

@@ -1,0 +1,48 @@
+{"width":320,"document":320,"broken":[],"sections":[{"id":"inicio","width":320},{"id":"vibes","width":320},{"id":"classicos","width":320},{"id":"mundo","width":320},{"id":"sobre","width":320},{"id":"final","width":320}]}
+{"width":375,"document":375,"broken":[],"sections":[{"id":"inicio","width":375},{"id":"vibes","width":375},{"id":"classicos","width":375},{"id":"mundo","width":375},{"id":"sobre","width":375},{"id":"final","width":375}]}
+{"width":430,"document":430,"broken":[],"sections":[{"id":"inicio","width":430},{"id":"vibes","width":430},{"id":"classicos","width":430},{"id":"mundo","width":430},{"id":"sobre","width":430},{"id":"final","width":430}]}
+{"width":768,"document":753,"broken":[],"sections":[{"id":"inicio","width":753},{"id":"vibes","width":753},{"id":"classicos","width":753},{"id":"mundo","width":753},{"id":"sobre","width":753},{"id":"final","width":753}]}
+{"width":1024,"document":1009,"broken":[],"sections":[{"id":"inicio","width":1009},{"id":"vibes","width":1009},{"id":"classicos","width":1009},{"id":"mundo","width":1009},{"id":"sobre","width":1009},{"id":"final","width":1009}]}
+{"width":1440,"document":1425,"broken":[],"sections":[{"id":"inicio","width":1425},{"id":"vibes","width":1425},{"id":"classicos","width":1425},{"id":"mundo","width":1425},{"id":"sobre","width":1425},{"id":"final","width":1425}]}
+{"width":1920,"document":1905,"broken":[],"sections":[{"id":"inicio","width":1905},{"id":"vibes","width":1800},{"id":"classicos","width":1905},{"id":"mundo","width":1905},{"id":"sobre","width":1800},{"id":"final","width":1905}]}
+Interactions {
+  vibe: 'Tubes.\nUma volta no sabor.',
+  classic: 'Minhocas',
+  selected: 'tubes'
+}
+Menu { open: 'true', closed: 'false' }
+All image decodes: 21
+Vibe 320 azedo 568
+Vibe 320 doce 577
+Vibe 320 tubes 545
+Vibe 320 classicos 577
+Vibe 375 azedo 545
+Vibe 375 doce 578
+Vibe 375 tubes 545
+Vibe 375 classicos 545
+Vibe 430 azedo 555
+Vibe 430 doce 570
+Vibe 430 tubes 533
+Vibe 430 classicos 533
+Vibe 768 azedo 470
+Vibe 768 doce 470
+Vibe 768 tubes 470
+Vibe 768 classicos 470
+Vibe 1440 azedo 470
+Vibe 1440 doce 489
+Vibe 1440 tubes 470
+Vibe 1440 classicos 489
+Reduced motion: stationary orbit and hero
+Auto hero: 01 / MINHOCAS AZEDINHAS → 02 / DENTADURAS
+Orbit pause: OK
+Orbit foreground/background: [ '2', '5', '5' ]
+Tubes loaded: http://127.0.0.1:8003/assets/images/caixafini5.webp
+Classic keyboard: OK
+World parallax: OK
+Classic swipe: OK
+Animated overflow at 320px: OK
+Mobile parallax simplified: OK
+Runtime errors: []
+
+
+Exit: 0

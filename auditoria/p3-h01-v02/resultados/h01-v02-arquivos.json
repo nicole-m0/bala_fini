@@ -1,0 +1,117 @@
+{
+  "raw": {
+    "path": "design/p3-candies/masters/minhoca-a-view01-v02-gerado-original.png",
+    "width": 1774,
+    "height": 887,
+    "bytes": 1245825,
+    "sha256": "4ade769b85dea115620591b65498ceedd33b771a657b6661647bd2f5bea02826",
+    "mode": "RGBA",
+    "alpha_zero": 1162502,
+    "alpha_partial": 410910,
+    "alpha_opaque": 126,
+    "bbox_alpha_gt_1": [
+      52,
+      253,
+      1746,
+      692
+    ]
+  },
+  "master": {
+    "path": "design/p3-candies/masters/minhoca-a-view01-v02.png",
+    "width": 1864,
+    "height": 483,
+    "bytes": 1144555,
+    "sha256": "38bdd21c2a89279e5113c40fe050845b1162a09805866844f8c399dcbb4d58f9",
+    "mode": "RGBA",
+    "alpha_zero": 492458,
+    "alpha_partial": 407728,
+    "alpha_opaque": 126,
+    "bbox_alpha_gt_1": [
+      85,
+      22,
+      1779,
+      461
+    ]
+  },
+  "crop_box_raw": [
+    -33,
+    231,
+    1831,
+    714
+  ],
+  "crop_rule": "bbox alpha>1 + 5% por eixo; sem alteracao do alfa no interior, sem deformacao",
+  "files": [
+    {
+      "path": "assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp",
+      "width": 256,
+      "height": 66,
+      "bytes": 8824,
+      "sha256": "bed3385fa3a3d30fcb4396e75e37e5605bbaf3516255c26cea88affc8ec64f8a",
+      "mode": "RGBA",
+      "alpha_zero": 8931,
+      "alpha_partial": 7558,
+      "alpha_opaque": 407,
+      "bbox_alpha_gt_1": [
+        10,
+        1,
+        246,
+        64
+      ]
+    },
+    {
+      "path": "assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-512.webp",
+      "width": 512,
+      "height": 133,
+      "bytes": 28570,
+      "sha256": "cc2fd6afe0244e825b216dd94faa348c1846b9948ccb3f640d923e230947963a",
+      "mode": "RGBA",
+      "alpha_zero": 37342,
+      "alpha_partial": 30036,
+      "alpha_opaque": 718,
+      "bbox_alpha_gt_1": [
+        22,
+        5,
+        490,
+        127
+      ]
+    }
+  ],
+  "proofs": [
+    {
+      "path": "design/p3-candies/provas/h01-v02/comparacao-r06-v01-v02.png",
+      "width": 1800,
+      "height": 1300,
+      "bytes": 414109,
+      "sha256": "ce1df00eb8dec97b5d6e6002bfbd3abdbd05531ff820bf24b976c921495f32bd",
+      "mode": "RGB"
+    },
+    {
+      "path": "design/p3-candies/provas/h01-v02/h01-v02-azul.png",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 757339,
+      "sha256": "f636bfb65977f4dc526a90915d355b946703c1ca56f426f384d79356cfee4a62",
+      "mode": "RGB"
+    },
+    {
+      "path": "design/p3-candies/provas/h01-v02/h01-v02-creme.png",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 755868,
+      "sha256": "f827e88c484c2664c42596cb12a15713848e0736a2a828a31299c082ca31b194",
+      "mode": "RGB"
+    },
+    {
+      "path": "design/p3-candies/provas/h01-v02/h01-v02-rosa.png",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 750805,
+      "sha256": "fa97a7b9ded059ec9160baf79636fda16d2236c3d75c666c85c939f60cf85699",
+      "mode": "RGB"
+    }
+  ],
+  "preservation": {
+    "checked": 35,
+    "changed": []
+  }
+}

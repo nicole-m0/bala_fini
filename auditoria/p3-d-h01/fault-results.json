@@ -1,0 +1,65 @@
+[
+  {
+    "mode": "delay",
+    "before": {
+      "ready": false,
+      "children": 0,
+      "background": "linear-gradient(90deg, rgb(131, 206, 201) 0px, rgb(131, 206, 201) 48%, rgb(247, 140, 168) 52%)",
+      "orbitTime": 0.22000000000000003,
+      "index": 0,
+      "height": 620,
+      "overflow": false
+    },
+    "after": {
+      "ready": true,
+      "children": 1,
+      "background": "none",
+      "orbitTime": 1.3702,
+      "index": 0,
+      "height": 620,
+      "overflow": false
+    }
+  },
+  {
+    "mode": "404",
+    "before": {
+      "ready": false,
+      "children": 0,
+      "background": "linear-gradient(90deg, rgb(131, 206, 201) 0px, rgb(131, 206, 201) 48%, rgb(247, 140, 168) 52%)",
+      "orbitTime": 0.2466,
+      "index": 0,
+      "height": 620,
+      "overflow": false
+    },
+    "after": {
+      "ready": false,
+      "children": 0,
+      "background": "linear-gradient(90deg, rgb(131, 206, 201) 0px, rgb(131, 206, 201) 48%, rgb(247, 140, 168) 52%)",
+      "orbitTime": 1.9632999999999987,
+      "index": 1,
+      "height": 620,
+      "overflow": false
+    }
+  },
+  {
+    "mode": "corrupt",
+    "before": {
+      "ready": false,
+      "children": 0,
+      "background": "linear-gradient(90deg, rgb(131, 206, 201) 0px, rgb(131, 206, 201) 48%, rgb(247, 140, 168) 52%)",
+      "orbitTime": 0.22330000000000003,
+      "index": 0,
+      "height": 620,
+      "overflow": false
+    },
+    "after": {
+      "ready": false,
+      "children": 0,
+      "background": "linear-gradient(90deg, rgb(131, 206, 201) 0px, rgb(131, 206, 201) 48%, rgb(247, 140, 168) 52%)",
+      "orbitTime": 1.9432999999999994,
+      "index": 1,
+      "height": 620,
+      "overflow": false
+    }
+  }
+]

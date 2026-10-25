@@ -1,0 +1,16 @@
+Viewport 1440 900 1 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Viewport 1920 1080 2 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Viewport 768 900 2 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Viewport 1024 900 1 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Viewport 320 900 3 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Viewport 375 900 3 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Viewport 430 900 2 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Viewport 667 375 2 http://127.0.0.1:8003/assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp
+Same-phase comparisons passed
+Sequence desktop-minhocas-full-orbit 25 frames 12.619699999999957 orbital seconds
+Sequence desktop-tubes-full-orbit 26 frames 12.632899999999964 orbital seconds
+Sequence mobile-tubes-full-orbit 30 frames 12.382833999999978 orbital seconds
+Finished 16 checks 56 comparison frames 3 sequences
+
+
+Exit: 0

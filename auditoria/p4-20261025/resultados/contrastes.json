@@ -1,0 +1,27 @@
+[
+  {
+    "foreground": "#fbf6e9",
+    "background": "#eb3477",
+    "nominalContrast": 3.67878016746327
+  },
+  {
+    "foreground": "#f8ed45",
+    "background": "#eb3477",
+    "nominalContrast": 3.2496902906018383
+  },
+  {
+    "foreground": "#eb3477",
+    "background": "#fbf6e9",
+    "nominalContrast": 3.67878016746327
+  },
+  {
+    "foreground": "#292074",
+    "background": "#fbf6e9",
+    "nominalContrast": 12.530458465006548
+  },
+  {
+    "foreground": "#eb3477",
+    "background": "#eb3477",
+    "nominalContrast": 1.0
+  }
+]

@@ -297,6 +297,11 @@ body.menu-open{overflow:hidden}
  .header nav>a.nav-shop{margin-top:8px;padding:12px 20px;min-height:44px}
 }
 
+/* P3-D — H01 only: preserve its box, transform, opacity, layer and one outer shadow. */
+.hero-art .w1.satellite.has-h01-asset{background:none;box-shadow:none;outline:none;outline-offset:0;border:0}
+.hero-art .w1.satellite>.h01-asset{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:contain;object-position:center;pointer-events:none;filter:none;visibility:hidden}
+.hero-art .w1.satellite.has-h01-asset>.h01-asset{visibility:visible}
+
 /* P2 — Local depth, short sensory gestures, and quiet resting states. */
 .hero-product{perspective:900px;transition:none}
 .hero-product .hero-slide{transform-origin:50% 65%;backface-visibility:hidden;will-change:auto}

@@ -52,6 +52,43 @@ function loadProduct(name) {
   }
   return imageCache.get(name);
 }
+// P3-D local experiment: change only H01's surface, never its orbital wrapper.
+function prepareH01Asset() {
+  const wrapper = document.querySelector('.hero-art .w1.satellite');
+  if (!wrapper) return;
+  const image = new Image(512, 133);
+  image.className = 'h01-asset';
+  image.alt = '';
+  image.setAttribute('aria-hidden', 'true');
+  image.decoding = 'async';
+  image.fetchPriority = 'low';
+  let generation = 0;
+  const fallback = () => {
+    ++generation;
+    wrapper.classList.remove('has-h01-asset');
+    image.remove();
+  };
+  image.addEventListener('error', fallback);
+  image.addEventListener('load', async () => {
+    const request = ++generation;
+    try {
+      await image.decode();
+      if (request !== generation || !image.naturalWidth) return;
+      // One atomic surface swap after decode; the CSS sweet remains the fallback.
+      if (!image.isConnected) wrapper.append(image);
+      wrapper.classList.add('has-h01-asset');
+    } catch {
+      if (request === generation) fallback();
+    }
+  });
+  image.sizes = '(max-width: 767px) 76px, 117px';
+  image.srcset = 'assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp 256w, assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-512.webp 512w';
+  image.src = 'assets/images/candies/minhocas-azedinhas/minhoca-a-view01-v02-256.webp';
+}
+// Decorative texture must not delay the page's primary load event.
+if (document.readyState === 'complete') prepareH01Asset();
+else window.addEventListener('load', prepareH01Asset, { once: true });
+
 const motionEase = {
   settle: 'cubic-bezier(.18,.72,.24,1)',
   travel: 'cubic-bezier(.42,0,.2,1)',
