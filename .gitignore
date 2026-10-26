@@ -4,3 +4,29 @@ __pycache__/
 
 .vercel
 .env*
+
+# Generated output and local audit/review archives (never delete via Git).
+/dist/
+/auditoria/
+/.local-cleanup/
+/design/p3-candies/provas/
+/REVISAO*.zip
+/AUDITORIA*.md
+/RELATORIO*.md
+/PLANO-P3-FINI.md
+/BUSCA-REFERENCIA-H02-FINI.md
+
+# Lasting project records must remain eligible for version control.
+!/RELATORIO-P5-B-FINI.md
+!/RELATORIO-LIMPEZA-GIT-FINI.md
+
+# Logs, editor caches and explicitly named backup/temp files.
+*.log
+*.log.*
+*.tmp
+*.bak
+*.orig
+*~
+.DS_Store
+Thumbs.db
+node_modules/

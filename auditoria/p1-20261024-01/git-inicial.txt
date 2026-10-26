@@ -1,4 +1,0 @@
-HEAD: 605d15dd5cd4e79e1ba1fa4dfef4dad3402043e5
-
-?? AUDITORIA-VISUAL-FINI.md
-?? auditoria/

@@ -350,7 +350,7 @@ body.menu-open{overflow:hidden}
 .js .about-copy.reveal>p,.js .about-copy.reveal .about-facts{transition-duration:.65s;transition-delay:.22s}
 .js .about-art.reveal img{transition-duration:.7s,.85s;transition-delay:.12s}
 .final-lineup img{transition-duration:.8s,.5s}
-.ticker.motion-rest>div{animation-play-state:paused}
+.ticker.motion-rest>div,.ticker.is-user-paused>div{animation-play-state:paused}
 .motion-suspended *,.motion-suspended *:before,.motion-suspended *:after{animation-play-state:paused!important}
 @media(max-width:767px){
  .hero-product{perspective:750px}
@@ -363,4 +363,31 @@ body.menu-open{overflow:hidden}
  .hero-product.is-transitioning .hero-slide,.world.is-in-view .depth-layer{will-change:auto}
  .vibe-art:after{display:none}
  .button:hover,.button:focus-visible,.vibe-tabs button:hover,.slider-controls button:hover{transform:none}
+}
+
+/* P4-A: local reading ink and focus; approved scene and motion stay intact. */
+.world-label,.world-text>span,.world-text p{color:#180f33}
+.world .button:focus-visible{outline-color:#180f33}
+.ticker{position:relative}
+#ticker-pause{position:absolute;right:12px;top:50%;transform:translateY(-50%);min-height:44px;padding:0 14px;border:1px solid currentColor;border-radius:24px;background:var(--yellow);color:var(--ink);font-size:12px;font-weight:700;box-shadow:0 0 0 5px var(--yellow)}
+#ticker-pause:focus-visible{outline-color:var(--ink);outline-offset:-5px}
+#ticker-pause:disabled{cursor:default}
+
+/* P4-B: keep the player inside the existing tablet art column. */
+@media(min-width:768px) and (max-width:1024px){
+ .hero-player{left:0;gap:16px}
+ .hero-caption{flex:1;min-width:0;max-width:none}
+ .hero-player-controls{flex-shrink:0}
+}
+/* Tubes only: allow for -10deg rotation and the 50% 65% transform pivot.
+   The 8.2px correction centres the visible image, not its taller object-fit box. */
+@media(max-width:767px){
+ .classic-picture img.is-display[src$="caixafini5.webp"]{width:min(84%,280px);left:calc(50% - min(42%,140px) + 8.2px);right:auto;margin:0}
+}
+
+/* P4-C: a quiet cue outside the existing mobile scroll track. */
+.classic-scroll-hint{display:none}
+@media(max-width:767px){
+ .classic-scroll-hint:not([hidden]){display:block;margin-top:8px;color:#e1dbef;font-size:11px;line-height:1.5;text-align:right}
+ .classic-scroll-hint span{margin-left:6px}
 }

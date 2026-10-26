@@ -481,8 +481,35 @@ classicStage.addEventListener('pointermove', event => {
   document.querySelector('.classic-picture').style.setProperty('--tilt', `${((event.clientX-rect.left)/rect.width-.5)*8}deg`);
 });
 classicStage.addEventListener('pointerleave', () => document.querySelector('.classic-picture').style.setProperty('--tilt','0deg'));
+const ticker = document.querySelector('.ticker');
+const tickerPause = document.querySelector('#ticker-pause');
+let tickerUserPaused = false;
+function updateTickerPause() {
+  ticker.classList.toggle('is-user-paused', tickerUserPaused);
+  tickerPause.disabled = reducedMotion.matches;
+  tickerPause.setAttribute('aria-pressed', String(tickerUserPaused || reducedMotion.matches));
+  tickerPause.textContent = reducedMotion.matches ? 'Sem movimento' : tickerUserPaused ? 'Retomar faixa' : 'Pausar faixa';
+  tickerPause.setAttribute('aria-label', reducedMotion.matches ? 'Faixa sem movimento: preferência por movimento reduzido ativada' : 'Pausar animação da faixa');
+}
+tickerPause.addEventListener('click', () => {
+  tickerUserPaused = !tickerUserPaused;
+  updateTickerPause();
+});
+reducedMotion.addEventListener('change', updateTickerPause);
+tickerPause.hidden = false;
+updateTickerPause();
 if ('IntersectionObserver' in window) {
-  const ticker = document.querySelector('.ticker');
   new IntersectionObserver(entries => ticker.classList.toggle('motion-rest', !entries[0].isIntersecting)).observe(ticker);
 }
 measureOrbit(); updatePauseControl(); requestMotion(); scheduleHero();
+
+// P4-C: describe overflow without changing navigation or animation playback.
+const classicIndexList = document.querySelector('.classic-index');
+const classicScrollHint = document.querySelector('#classic-scroll-hint');
+function updateClassicScrollHint() {
+  classicScrollHint.hidden = window.innerWidth >= 768 || classicIndexList.scrollWidth <= classicIndexList.clientWidth + 1;
+}
+if ('ResizeObserver' in window) new ResizeObserver(updateClassicScrollHint).observe(classicIndexList);
+window.addEventListener('resize', updateClassicScrollHint, { passive: true });
+document.fonts.ready.then(updateClassicScrollHint);
+updateClassicScrollHint();

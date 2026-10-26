@@ -1,9 +1,0 @@
-> python -B tools/validate_files.py
-Local paths, dynamic assets, IDs, image alt attributes and CSS braces: OK
-All WebP assets decode successfully
-WebP assets: 21
-
-> node --check js/script.js
-
-> git diff --check
-
